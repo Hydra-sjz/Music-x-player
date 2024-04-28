@@ -3,7 +3,7 @@ import json
 import requests
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 
 @app.on_message(filters.command("bingimg"))
