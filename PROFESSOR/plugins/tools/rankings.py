@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pymongo import MongoClient
-from DAXXMUSIC import app
+from PROFESSOR import app
 from config import MONGO_DB_URI
 from pyrogram.types import *
 from pyrogram.errors import MessageNotModified
@@ -30,7 +30,7 @@ user_data = {}
 
 today = {}
 
-MISHI = [
+PROFESSOR = [
     "https://graph.org/file/f86b71018196c5cfe7344.jpg",
     "https://graph.org/file/a3db9af88f25bb1b99325.jpg",
     "https://graph.org/file/5b344a55f3d5199b63fa5.jpg",
@@ -99,7 +99,7 @@ async def today_(_, message):
                 [[    
                    InlineKeyboardButton("ᴏᴠᴇʀᴀʟʟ ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ", callback_data="overall"),
                 ]])
-            await message.reply_photo(random.choice(MISHI), caption=response, reply_markup=button)
+            await message.reply_photo(random.choice(PROFESSOR), caption=response, reply_markup=button)
         else:
             await message.reply_text("❅ ɴᴏ ᴅᴀᴛᴀ ᴀᴠᴀɪʟᴀʙʟᴇ ғᴏʀ ᴛᴏᴅᴀʏ.")
     else:
@@ -126,7 +126,7 @@ async def ranking(_, message):
             [[    
                InlineKeyboardButton("ᴛᴏᴅᴀʏ ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ", callback_data="today"),
             ]])
-    await message.reply_photo(random.choice(MISHI), caption=response, reply_markup=button)
+    await message.reply_photo(random.choice(PROFESSOR), caption=response, reply_markup=button)
 
 
 
