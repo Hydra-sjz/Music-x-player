@@ -4,9 +4,9 @@ from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram.types import(InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, Message)
 from config import LOGGER_ID as LOG_GROUP_ID
-from DAXXMUSIC import app  
+from PROFESSOR import app  
 
-ABHI = [
+SOURABH = [
 "https://graph.org/file/f76fd86d1936d45a63c64.jpg",
 "https://graph.org/file/69ba894371860cd22d92e.jpg",
 "https://graph.org/file/67fde88d8c3aa8327d363.jpg",
@@ -39,7 +39,7 @@ ABHI = [
 
 ]
 
-NYKAA = [
+PROFESSOR = [
     "https://graph.org/file/9bba2b7ee9ba3806de65d.jpg",
     "https://graph.org/file/ef82f289043a4fa74f8ff.jpg",
     "https://graph.org/file/9c27c68958e06ae074c38.jpg",
@@ -92,7 +92,7 @@ async def join_watcher(_, message):
                 f"๏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ➠ {count}\n"
                 f"๏ ᴀᴅᴅᴇᴅ ʙʏ ➠ {message.from_user.mention}"
             )
-            await app.send_photo(LOG_GROUP_ID, photo=random.choice(ABHI), caption=msg, reply_markup=InlineKeyboardMarkup([
+            await app.send_photo(LOG_GROUP_ID, photo=random.choice(SOURABH), caption=msg, reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton(f"sᴇᴇ ʙᴏᴛ ᴀᴅᴅᴇᴅ ɢʀᴏᴜᴘ", url=f"{link}")]
          ]))
 
@@ -106,7 +106,7 @@ async def on_left_chat_member(_, message: Message):
         username = f"@{message.chat.username}" if message.chat.username else "𝐏ʀɪᴠᴀᴛᴇ 𝐂ʜᴀᴛ"
         chat_id = message.chat.id
         left = f"❀ <b><u>ʙᴏᴛ #ʟᴇғᴛ_ɢʀᴏᴜᴘ ʙʏ ᴀ ᴄʜᴜᴛɪʏᴀ</u></b> ❀\n\n๏ ɢʀᴏᴜᴘ ɴᴀᴍᴇ ➠ {title}\n\n๏ ɢʀᴏᴜᴘ ɪᴅ ➠ {chat_id}\n\n๏ ʙᴏᴛ ʀᴇᴍᴏᴠᴇᴅ ʙʏ ➠ {remove_by}\n\n๏ ʙᴏᴛ ɴᴀᴍᴇ ➠ @{app.username}"
-        await app.send_photo(LOG_GROUP_ID, photo=random.choice(NYKAA), caption=left, reply_markup=InlineKeyboardMarkup([
+        await app.send_photo(LOG_GROUP_ID, photo=random.choice(PROFESSOR), caption=left, reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton(f"ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{app.username}?startgroup=true")]
          ]))
 
@@ -129,7 +129,7 @@ async def _greet(_, message):
                 f"๏ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ➠ @{member.username}\n"
                 f"๏ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛᴏᴛᴇʟ {count} ᴍᴇᴍʙᴇʀs"
             )
-            await app.send_photo(message.chat.id, photo=random.choice(NYKAA), caption=msg, reply_markup=InlineKeyboardMarkup([
+            await app.send_photo(message.chat.id, photo=random.choice(PROFESSOR), caption=msg, reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton(f"ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{app.username}?startgroup=true")]
          ]))
 
