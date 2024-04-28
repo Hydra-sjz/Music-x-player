@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 import requests
 from pyrogram.types import Message
 from io import BytesIO
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 # Fill these out with your credentials
 
@@ -44,7 +44,7 @@ def pic_command(client, message: Message):
     try:
         response = requests.get(unsplash_url)
         if response.status_code == 200:
-            client.send_photo(message.chat.id, photo=unsplash_url, caption=f"✦ ʜᴇʀᴇ's ᴀ ᴘɪᴄᴛᴜʀᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ➠ {name}.\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐" )
+            client.send_photo(message.chat.id, photo=unsplash_url, caption=f"✦ ʜᴇʀᴇ's ᴀ ᴘɪᴄᴛᴜʀᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ➠ {name}.\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ᴘʀᴏғᴇssᴏʀ " )
         else:
             client.send_message(message.chat.id, "✦ Failed to fetch image.")
     except requests.RequestException as e:
