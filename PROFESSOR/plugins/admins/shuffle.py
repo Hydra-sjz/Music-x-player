@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils.decorators import AdminRightsCheck
-from DAXXMUSIC.utils.inline import close_markup
+from PROFESSOR import app
+from PROFESSOR.misc import db
+from PROFESSOR.utils.decorators import AdminRightsCheck
+from PROFESSOR.utils.inline import close_markup
 from config import BANNED_USERS
 
 
