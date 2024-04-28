@@ -1,4 +1,4 @@
-from DAXXMUSIC import app 
+from PROFESSOR import app 
 import asyncio
 import random
 from pyrogram import Client, filters
