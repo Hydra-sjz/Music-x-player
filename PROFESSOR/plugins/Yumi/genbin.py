@@ -1,6 +1,6 @@
 """MIT License
 
-Copyright (c) [Year] Team DAXX
+Copyright (c) [Year] Team SOURABH PROFESSOR
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,14 +21,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-#Copyright © [LIFETIME] Team DAXX. All rights reserved
+#Copyright © [LIFETIME] Team SOURABH PROFESSOR. All rights reserved
 
 
 
 
 from pyrogram import Client, filters
 import random
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 # Constants
 VALID_PREFIXES = [4, 5, 6,3]  # VISA starts with 4, MasterCard with 5, Discover with 6
