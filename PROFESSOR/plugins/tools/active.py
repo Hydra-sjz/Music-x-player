@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from DAXXMUSIC import app
-from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils.database import (
+from PROFESSOR import app
+from PROFESSOR.misc import SUDOERS
+from PROFESSOR.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
