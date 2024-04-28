@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
-from DAXXMUSIC import app
+from PROFESSOR import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message 
 from config import BOT_USERNAME
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Professor_Sukoon_Bot?startgroup=true"),
     ],
 ]
 
@@ -22,7 +22,7 @@ def text_to_hex(text):
     return hex_representation
 
 
-# IAM_DAXX ...........................
+# IAM_PROF ...........................
 
 @app.on_message(filters.command("code"))
 def convert_text(_, message):
@@ -32,7 +32,7 @@ def convert_text(_, message):
         hex_representation = text_to_hex(input_text)
         decoded_text = hex_to_text(input_text)
 
-        response_text = f"๏ ɪɴᴘᴜᴛ ᴛᴇxᴛ ➠\n {input_text}\n\n๏ ʜᴇx ʀᴇᴘʀᴇsᴇɴᴛᴀᴛɪᴏɴ ➠\n {hex_representation}\n\n๏ ᴅᴇᴄᴏᴅᴇᴅ ᴛᴇxᴛ ➠\n {decoded_text}\n\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐"
+        response_text = f"๏ ɪɴᴘᴜᴛ ᴛᴇxᴛ ➠\n {input_text}\n\n๏ ʜᴇx ʀᴇᴘʀᴇsᴇɴᴛᴀᴛɪᴏɴ ➠\n {hex_representation}\n\n๏ ᴅᴇᴄᴏᴅᴇᴅ ᴛᴇxᴛ ➠\n {decoded_text}\n\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ᴘʀᴏғᴇssᴏʀ "
 
         message.reply_text((response_text),reply_markup=InlineKeyboardMarkup(EVAA),)
     else:
