@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from datetime import datetime
 import pytz
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 
 def get_current_time():
