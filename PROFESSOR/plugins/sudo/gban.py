@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils import get_readable_time
-from DAXXMUSIC.utils.database import (
+from PROFESSOR import app
+from PROFESSOR.misc import SUDOERS
+from PROFESSOR.utils import get_readable_time
+from PROFESSOR.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from DAXXMUSIC.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from DAXXMUSIC.utils.decorators.language import language
-from DAXXMUSIC.utils.extraction import extract_user
+from PROFESSOR.utils.decorators.language import language
+from PROFESSOR.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
