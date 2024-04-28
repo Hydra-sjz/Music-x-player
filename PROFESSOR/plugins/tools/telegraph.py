@@ -1,6 +1,6 @@
 from telegraph import upload_file
 from pyrogram import filters
-from DAXXMUSIC import app
+from PROFESSOR import app
 from pyrogram.types import InputMediaPhoto
 
 
@@ -14,7 +14,7 @@ def ul(_, message):
         for x in fk:
             url = "https://telegra.ph" + x
 
-        i.edit(f'๏ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➠ {url}\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐')
+        i.edit(f'๏ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➠ {url}\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ᴘʀᴏғᴇssᴏʀ ')
 
 ########____________________________________________________________######
 
@@ -28,5 +28,5 @@ def ul(_, message):
         for x in fk:
             url = "https://graph.org" + x
 
-        i.edit(f'๏ ʏᴏᴜʀ ɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➠ {url}\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐')
+        i.edit(f'๏ ʏᴏᴜʀ ɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➠ {url}\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ᴘʀᴏғᴇssᴏʀ ')
 
