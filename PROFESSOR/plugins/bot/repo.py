@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from DAXXMUSIC import app
+from PROFESSOR import app
 from config import BOT_USERNAME
 
 start_txt = """
