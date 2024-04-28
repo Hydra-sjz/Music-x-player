@@ -1,6 +1,6 @@
 """MIT License
 
-Copyright (c) [Year] Team DAXX
+Copyright (c) [Year] Team SOURABH PROFESSOR
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ SOFTWARE.
 
 from pyrogram import Client, filters
 from faker import Faker
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 # Create a Faker instance
 fake = Faker()
@@ -63,7 +63,7 @@ def generate_info(client, message):
         
         f"**๏ ᴢɪᴘᴄᴏᴅᴇ ➠** {zipcode}\n"
 
-        f"๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐"
+        f"๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ᴘʀᴏғᴇssᴏʀ "
     )
 
     # Send the fake data to the user
