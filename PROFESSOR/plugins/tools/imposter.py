@@ -1,10 +1,10 @@
 import random 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from DAXXMUSIC.plugins.tools.pretenderdb import impo_off, impo_on, check_pretender, add_userdata, get_userdata, usr_data
-from DAXXMUSIC import app
+from PROFESSOR.plugins.tools.pretenderdb import impo_off, impo_on, check_pretender, add_userdata, get_userdata, usr_data
+from PROFESSOR import app
 
-MISHI = [
+PROFESSOR = [
     "https://graph.org/file/f86b71018196c5cfe7344.jpg",
     "https://graph.org/file/a3db9af88f25bb1b99325.jpg",
     "https://graph.org/file/5b344a55f3d5199b63fa5.jpg",
@@ -26,12 +26,12 @@ MISHI = [
 ]
 
 
-ROY = [
+SOURABH = [
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ",
-            url=f"https://t.me/nykaaxbot?startgroup=true"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx")
+            url=f"https://t.me/Professor_Sukoon_Bot?startgroup=true"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/PROFESSOR_NETWORK")
     ],
 ]
 
