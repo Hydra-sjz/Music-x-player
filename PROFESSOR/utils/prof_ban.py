@@ -1,5 +1,5 @@
 from pyrogram import filters
-from DAXXMUSIC.utils.admin_check import admin_check
+from PROFESSOR.utils.admin_check import admin_check
 
 
 USE_AS_BOT = True
