@@ -2,7 +2,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
 from config import OWNER_ID as owner_id
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 
 
@@ -68,7 +68,7 @@ async def bugs(_, msg: Message):
                 ),
             )
             await app.send_photo(
-                -1001802990747,
+                -1002066605904,
                 photo="https://telegra.ph/file/f66e5843568d4b7f2a652.jpg",
                 caption=f"{bug_report}",
                 reply_markup=InlineKeyboardMarkup(
