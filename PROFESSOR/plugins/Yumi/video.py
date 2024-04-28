@@ -11,7 +11,7 @@ from pyrogram.types import Message
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
 
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 
 def get_file_extension_from_url(url):
@@ -83,7 +83,7 @@ async def ytmusic(client, message: Message):
         return
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
-    capy = f"✦ **ᴛɪᴛʟᴇ ➠** [{thum}]({mo})\n\n๏ **ᴄʜᴀɴɴᴇʟ ➠** {thums}\n๏ **sᴇᴀʀᴄʜᴇᴅ ➠** {urlissed}\n๏ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➠** {chutiya}\n\n**๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐**"
+    capy = f"✦ **ᴛɪᴛʟᴇ ➠** [{thum}]({mo})\n\n๏ **ᴄʜᴀɴɴᴇʟ ➠** {thums}\n๏ **sᴇᴀʀᴄʜᴇᴅ ➠** {urlissed}\n๏ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➠** {chutiya}\n\n**๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ᴘʀᴏғᴇssᴏʀ **"
     await client.send_video(
         message.chat.id,
         video=open(file_stark, "rb"),
