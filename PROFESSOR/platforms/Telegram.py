@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from DAXXMUSIC import app
-from DAXXMUSIC.utils.formatters import (
+from PROFESSOR import app
+from PROFESSOR.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
