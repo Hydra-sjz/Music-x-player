@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from DAXXMUSIC import app
-from DAXXMUSIC.core.userbot import assistants
-from DAXXMUSIC.misc import SUDOERS, mongodb
-from DAXXMUSIC.plugins import ALL_MODULES
-from DAXXMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from DAXXMUSIC.utils.decorators.language import language, languageCB
-from DAXXMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
+from PROFESSOR import app
+from PROFESSOR.core.userbot import assistants
+from PROFESSOR.misc import SUDOERS, mongodb
+from PROFESSOR.plugins import ALL_MODULES
+from PROFESSOR.utils.database import get_served_chats, get_served_users, get_sudoers
+from PROFESSOR.utils.decorators.language import language, languageCB
+from PROFESSOR.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
