@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.utils.database import set_cmode
-from DAXXMUSIC.utils.decorators.admins import AdminActual
+from PROFESSOR import app
+from PROFESSOR.utils.database import set_cmode
+from PROFESSOR.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 
