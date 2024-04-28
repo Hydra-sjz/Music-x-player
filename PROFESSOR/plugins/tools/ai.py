@@ -1,7 +1,7 @@
 import random
 import time
 import requests
-from DAXXMUSIC import app
+from PROFESSOR import app
 from config import BOT_USERNAME
 
 from pyrogram.enums import ChatAction, ParseMode
@@ -23,12 +23,12 @@ async def chat_gpt(bot, message):
 
             try:
                 # Check if "results" key is present in the JSON response
-                if "answer" in response.json():
+                if "answer" in response.json(): 
                     x = response.json()["answer"]
                     end_time = time.time()
                     telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
                     await message.reply_text(
-                         f"♥︎ {x}  \n\n✦ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➠  ๛ɴ ʏ ᴋ ᴀ ᴀ࿐",
+                         f"♥︎ {x}  \n\n✦ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➠  ᴘʀᴏғᴇssᴏʀ ",
                         parse_mode=ParseMode.MARKDOWN
                     )
                 else:
