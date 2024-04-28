@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from datetime import datetime
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 @app.on_message(filters.command("day"))
 def date_to_day_command(client: Client, message: Message):
