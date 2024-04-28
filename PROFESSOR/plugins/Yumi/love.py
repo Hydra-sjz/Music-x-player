@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import random
-from DAXXMUSIC import app
+from PROFESSOR import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
         
@@ -26,7 +26,7 @@ def get_random_message(love_percentage):
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Professor_Sukoon_Bot?startgroup=true"),
     ],
 ]
 
