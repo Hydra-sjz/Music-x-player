@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
 import requests
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message 
-from DAXXMUSIC import app 
+from PROFESSOR import app 
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Professor_Sukoon_Bot?startgroup=true"),
     ],
 ]
 
