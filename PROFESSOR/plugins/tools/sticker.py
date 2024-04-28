@@ -3,7 +3,7 @@ import httpx
 import os
 from pyrogram import filters
 from config import BOT_USERNAME
-from DAXXMUSIC import app
+from PROFESSOR import app
 from pyrogram import filters
 import pyrogram
 from uuid import uuid4
@@ -57,7 +57,7 @@ async def _packkang(app :app,message):
     if message.reply_to_message.sticker.is_animated or  message.reply_to_message.sticker.is_video:
         return await txt.edit("ʀᴇᴘʟʏ ᴛᴏ ᴀ ɴᴏɴ-ᴀɴɪᴍᴀᴛᴇᴅ sᴛɪᴄᴋᴇʀ")
     if len(message.command) < 2:
-        pack_name =  f'{message.from_user.first_name}_sticker_pack_by_@Nykaaxbot'
+        pack_name =  f'{message.from_user.first_name}_sticker_pack_by_@Professor_Sukoon_Bot'
     else :
         pack_name = message.text.split(maxsplit=1)[1]
     short_name = message.reply_to_message.sticker.set_name
