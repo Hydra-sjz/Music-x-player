@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX, autoend
-from DAXXMUSIC.utils.database import get_client, is_active_chat, is_autoend
+from PROFESSOR import app
+from PROFESSOR.core.call import PROF, autoend
+from PROFESSOR.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from DAXXMUSIC.core.userbot import assistants
+            from PROFESSOR.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -26,8 +26,8 @@ async def auto_leave():
                         ]:
                             if (
                                 i.chat.id != config.LOGGER_ID
-                                and i.chat.id != -1001802990747
-                                and i.chat.id != -1001802990747
+                                and i.chat.id != -1002066605904
+                                and i.chat.id != -1002066605904
                             ):
                                 if left == 20:
                                     continue
@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await DAXX.stop_stream(chat_id)
+                    await PROF.stop_stream(chat_id)
                 except:
                     continue
                 try:
