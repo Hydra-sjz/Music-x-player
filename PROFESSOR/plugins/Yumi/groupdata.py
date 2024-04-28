@@ -4,7 +4,7 @@ from asyncio import sleep
 from pyrogram import Client, filters
 from pyrogram import enums, filters
 
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 @app.on_message(~filters.private & filters.command(["groupdata"]), group=2)
 async def instatus(app, message):
@@ -46,7 +46,7 @@ async def instatus(app, message):
 ๏ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs ➠ {premium_acc} 
 ๏ ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➠ {timelog} 
 
-๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐ **""")
+๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ᴘʀᴏғᴇssᴏʀ **""")
     else:
         sent_message = await message.reply_text("✦ ONLY ADMINS CAN USE THIS !")
         await sleep(5)
