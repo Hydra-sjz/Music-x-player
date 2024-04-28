@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
 from blackpink import blackpink as bp
-from DAXXMUSIC import app
+from PROFESSOR import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
@@ -19,7 +19,7 @@ async def blackpink(_, message):
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git NYKAAXBOT")
+        await message.reply_text("/git PROFESSOR")
         return
 
     username = message.text.split(None, 1)[1]
@@ -58,7 +58,7 @@ async def github(_, message):
 ๏ ғᴏʟʟᴏᴡᴇʀs ➠ {followers}
 ๏ ғᴏʟʟᴏᴡɪɴɢ ➠ {following}
 
-๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [๛ɴ ʏ ᴋ ᴀ ᴀ࿐](https://t.me/nykaaxbot)"""
+๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [ ᴘʀᴏғᴇssᴏʀ ](https://t.me/Professor_Sukoon_Bot)"""
 
             except Exception as e:
                 print(str(e))
