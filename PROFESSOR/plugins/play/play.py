@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from DAXXMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.utils import seconds_to_min, time_to_seconds
-from DAXXMUSIC.utils.channelplay import get_channeplayCB
-from DAXXMUSIC.utils.decorators.language import languageCB
-from DAXXMUSIC.utils.decorators.play import PlayWrapper
-from DAXXMUSIC.utils.formatters import formats
-from DAXXMUSIC.utils.inline import (
+from PROFESSOR import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from PROFESSOR.core.call import PROF
+from PROFESSOR.utils import seconds_to_min, time_to_seconds
+from PROFESSOR.utils.channelplay import get_channeplayCB
+from PROFESSOR.utils.decorators.language import languageCB
+from PROFESSOR.utils.decorators.play import PlayWrapper
+from PROFESSOR.utils.formatters import formats
+from PROFESSOR.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from DAXXMUSIC.utils.logger import play_logs
-from DAXXMUSIC.utils.stream.stream import stream
+from PROFESSOR.utils.logger import play_logs
+from PROFESSOR.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
@@ -278,7 +278,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await DAXX.stream_call(url)
+                await PROF.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
@@ -491,8 +491,8 @@ async def play_music(client, CallbackQuery, _):
     return await mystic.delete()
 
 
-@app.on_callback_query(filters.regex("DAXXmousAdmin") & ~BANNED_USERS)
-async def DAXXmous_check(client, CallbackQuery):
+@app.on_callback_query(filters.regex("PROFmousAdmin") & ~BANNED_USERS)
+async def PROFmous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
             "» ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ :\n\nᴏᴘᴇɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs.\n-> ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs\n-> ᴄʟɪᴄᴋ ᴏɴ ʏᴏᴜʀ ɴᴀᴍᴇ\n-> ᴜɴᴄʜᴇᴄᴋ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴs.",
@@ -502,7 +502,7 @@ async def DAXXmous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("DAXXPlaylists") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("PROFPlaylists") & ~BANNED_USERS)
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
