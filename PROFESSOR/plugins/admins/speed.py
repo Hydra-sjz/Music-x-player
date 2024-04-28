@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import SUDOERS, db
-from DAXXMUSIC.utils import AdminRightsCheck
-from DAXXMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from DAXXMUSIC.utils.decorators.language import languageCB
-from DAXXMUSIC.utils.inline import close_markup, speed_markup
+from PROFESSOR import app
+from PROFESSOR.core.call import PROF
+from PROFESSOR.misc import SUDOERS, db
+from PROFESSOR.utils import AdminRightsCheck
+from PROFESSOR.utils.database import is_active_chat, is_nonadmin_chat
+from PROFESSOR.utils.decorators.language import languageCB
+from PROFESSOR.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await DAXX.speedup_stream(
+        await PROF.speedup_stream(
             chat_id,
             file_path,
             speed,
