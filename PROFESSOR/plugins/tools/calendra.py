@@ -3,7 +3,7 @@ from PIL import Image, ImageEnhance
 from io import BytesIO
 import aiohttp
 import calendar
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 async def make_carbon(code):
     url = "https://carbonara.solopov.dev/api/cook"
@@ -48,5 +48,5 @@ async def send_calendar(_, message):
     carbon_image = await make_carbon(full_year_calendar)
 
     # Send the image as a reply to the user
-    await app.send_photo(message.chat.id, carbon_image, caption=f"✦ ᴄᴀʟᴇɴᴅᴀʀ ᴏғ ᴛʜᴇ ʏᴇᴀʀ {year} ✦\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐")
+    await app.send_photo(message.chat.id, carbon_image, caption=f"✦ ᴄᴀʟᴇɴᴅᴀʀ ᴏғ ᴛʜᴇ ʏᴇᴀʀ {year} ✦\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ᴘʀᴏғᴇssᴏʀ ")
     
