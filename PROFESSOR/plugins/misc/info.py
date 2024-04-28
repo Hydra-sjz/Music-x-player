@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
-from DAXXMUSIC import app
+from PROFESSOR import app
 from pyrogram import filters, Client, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
@@ -11,7 +11,7 @@ from typing import Union, Optional
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Professor_Sukoon_Bot?startgroup=true"),
     ],
 ]
 
@@ -55,8 +55,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "DAXXMUSIC/assets/INFORMATION2.PNG"
-font_path = "DAXXMUSIC/assets/hiroko.ttf"
+bg_path = "PROFESSOR/assets/INFORMATION2.PNG"
+font_path = "PROFESSOR/assets/hiroko.ttf"
 
 #
 # --------------------------------------------------------------------------------- #
@@ -73,7 +73,7 @@ INFO_TEXT = """
 ๏ ᴜsᴇʀ ᴅᴄ ɪᴅ ➠ {}
 ๏ ᴜsᴇʀ ʙɪᴏ ➠ {}
 
-๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [๛ɴ ʏ ᴋ ᴀ ᴀ࿐](https://t.me/nykaaxbot)
+๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [ ᴘʀᴏғᴇssᴏʀ ](https://t.me/Professor_Sukoon_Bot)
 """
 
 # --------------------------------------------------------------------------------- #
