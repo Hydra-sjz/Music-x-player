@@ -6,11 +6,11 @@ from config import BOT_USERNAME
 start_txt = """
 ✦ ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ  ᴘʀᴏғᴇssᴏʀ sᴏᴜʀᴀʙʜ ʀᴇᴘᴏs !
 
-✦ ᴍᴇʀᴀ ʟᴀɴᴅ ʟᴇ ʟᴇ༗
+✦ ᴍᴇʀᴀ ʀᴇᴘᴏ ʟᴇ ᴏʀ ʙʜᴀᴀɢ ᴊᴀʟᴅɪ
 
 ✦ ᴛᴇʀɪ ᴍᴀ ᴋɪ ᴄʜᴜᴛ ʀᴀɴᴅɪ ᴋᴇ.
 
-✦ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ༗.
+✦ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ.
 **"""
 
 
@@ -32,7 +32,7 @@ async def start(_, msg):
 ],
 [
               InlineKeyboardButton("ＭＡＩＮ ＢＯＴ", url=f"https://t.me/Professor_Sukoon_Bot"),
-              InlineKeyboardButton("︎ＭＹ ＲＥＰＯ", url=f"https://t.me/PROFESSORS_NETWORK"),
+              InlineKeyboardButton("︎ＭＹ ＲＥＰＯ", url=f"https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC"),
        
     ]]
     
