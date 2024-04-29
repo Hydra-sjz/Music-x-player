@@ -24,7 +24,7 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("ＨＥＬＰ", url="https://t.me/Friends_Chatting_Group_Friends_0"),
-          InlineKeyboardButton("ＰＲＯＦＥＳＳＯＲ", url="https://t.me/SOURABH_OWNER),
+          InlineKeyboardButton("ＰＲＯＦＥＳＳＯＲ", url="https://t.me/SOURABH_OWNER"),
           ],
                [
                 InlineKeyboardButton("ＰＲＯＦＥＳＳＯＲ ＮＥＴＷＯＲＫ", url="https://t.me/PROFESSOR_NETWORK"),
