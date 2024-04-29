@@ -1,5 +1,5 @@
-from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils.database import get_lang, is_maintenance
+from PROFESSOR.misc import SUDOERS
+from PROFESSOR.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 
