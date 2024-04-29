@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 from PROFESSOR import app
 from PROFESSOR.mongo.notesdb import GetNote
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from DAXXMUSIC.utils.msg_types import button_markdown_parser
+from PROFESSOR.utils.msg_types import button_markdown_parser
 
 class NoteTypeMap(Enum):
     text = auto()
