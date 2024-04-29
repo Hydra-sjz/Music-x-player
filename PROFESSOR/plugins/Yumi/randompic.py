@@ -25,7 +25,7 @@ SOFTWARE. **"""
 from pyrogram import Client, filters
 import requests
 from io import BytesIO
-from DAXXMUSIC import app
+from PROFESSOR import app
 
 # Fill these out with your credentials
 
