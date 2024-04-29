@@ -1,7 +1,7 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from PROFESSOR.utils.daxx_font import Fonts
+from PROFESSOR.utils.prof_font import Fonts
 from PROFESSOR import app
 
 @app.on_message(filters.command(["font", "fonts"]))
