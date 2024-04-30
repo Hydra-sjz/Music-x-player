@@ -37,7 +37,7 @@
   <img src="https://telegra.ph/file/8928c73d22b5307b31c71.jpg">
 </p>
 
-**𝗧𝗘𝗦𝗧 𝗕𝗢𝗧 ➣ [](https://t.me/PROFESSOR_NETWORK)**
+**𝗧𝗘𝗦𝗧 𝗕𝗢𝗧 ➣ [](https://t.me/PROFESSOR_SUKOON_BOT)**
 
 
 
@@ -59,7 +59,7 @@
 <h2 align="center">
 
 🔴「 𝗜𝗙 𝗔𝗡𝗬 𝗘𝗥𝗥𝗢𝗥 𝗧𝗛𝗘𝗡 𝗦𝗘𝗡𝗗 𝗦𝗦 𝗧𝗢 𝗗𝗠 」🔴
-[![ALONE](https://telegra.ph/file/101e1046e2fbbd1c3aa48.jpg)](https://t.me/PROFESSOR_NETWORK)
+[![ALONE](https://telegra.ph/file/101e1046e2fbbd1c3aa48.jpg)](https://telegram.me/SOURABH_OWNER)
 </p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
