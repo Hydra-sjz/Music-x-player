@@ -34,7 +34,7 @@
 </h2>
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦ᴅᴇᴘʟᴏʏ+ᴏɴ+ʜᴇʀᴏᴋᴜ♦;♨️+ɴᴏ+ʜᴇʀᴏᴋᴜ+ʙᴀɴ+ɪssᴜᴇ+ᴀʟsᴏ+ᴠᴘs+ᴅᴇᴘʟᴏʏ+📍+ᴘʀᴇsᴇɴᴛ;🎭+ᴘᴏᴡᴇʀᴇᴅ+ʙʏ+𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗢𝗥+🎭">
 <p align="center">
-  <img src="https://telegra.ph/file/8928c73d22b5307b31c71.jpg">
+  <img src="https://telegra.ph/file/205f3cf027a5a11f5f70e.jpg">
 </p>
 
 **𝗧𝗘𝗦𝗧 𝗕𝗢𝗧 ➣ [](https://t.me/PROFESSOR_SUKOON_BOT)**
