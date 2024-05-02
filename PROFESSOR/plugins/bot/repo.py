@@ -36,8 +36,8 @@ async def start(_, msg):
        
     ],
     [
-              InlineKeyboardButton("ＳＴＲＩＮＧ ＧＥＮ", url=f"https://t.me/String_Generate_op_bot"),
-              InlineKeyboardButton("︎ＳＴＲＩＮＧ ＨＡＣＫ", url=f"https://t.me/ProfessorStringHackBot"),
+              InlineKeyboardButton("sᴛʀɪɴɢ ɢᴇɴ", url=f"https://t.me/String_Generate_op_bot"),
+              InlineKeyboardButton("︎sᴛʀɪɴɢ ʜᴀᴄᴋ", url=f"https://t.me/ProfessorStringHackBot"),
        
     ]]
     
