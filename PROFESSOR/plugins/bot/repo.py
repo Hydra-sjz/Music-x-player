@@ -34,6 +34,11 @@ async def start(_, msg):
               InlineKeyboardButton("ＭＡＩＮ ＢＯＴ", url=f"https://t.me/Professor_Sukoon_Bot"),
               InlineKeyboardButton("︎ＭＹ ＲＥＰＯ", url=f"https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC"),
        
+    ],
+    [
+              InlineKeyboardButton("ＳＴＲＩＮＧ ＧＥＮ", url=f"https://t.me/String_Generate_op_bot"),
+              InlineKeyboardButton("︎ＳＴＲＩＮＧ ＨＡＣＫ", url=f"https://t.me/ProfessorStringHackBot"),
+       
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
