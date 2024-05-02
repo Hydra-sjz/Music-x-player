@@ -23,16 +23,16 @@ async def start(_, msg):
           InlineKeyboardButton("ＡＤＤ ＭＥ ＢＡＢＹ", url=f"https://t.me/Professor_Sukoon_Bot?startgroup=True&admin=delete_messages+invite_users+pin_messages")
         ],
         [
-          InlineKeyboardButton("ＨＥＬＰ", url="https://t.me/Friends_Chatting_Group_Friends_0"),
-          InlineKeyboardButton("ＰＲＯＦＥＳＳＯＲ", url="https://t.me/SOURABH_OWNER"),
+          InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/Friends_Chatting_Group_Friends_0"),
+          InlineKeyboardButton("ᴘʀᴏғᴇssᴏʀ", url="https://t.me/SOURABH_OWNER"),
           ],
                [
-                InlineKeyboardButton("ＰＲＯＦＥＳＳＯＲ ＮＥＴＷＯＲＫ", url="https://t.me/PROFESSOR_NETWORK"),
+                InlineKeyboardButton("ᴘʀᴏғᴇssᴏʀ ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/PROFESSOR_NETWORK"),
 
 ],
 [
-              InlineKeyboardButton("ＭＡＩＮ ＢＯＴ", url=f"https://t.me/Professor_Sukoon_Bot"),
-              InlineKeyboardButton("︎ＭＹ ＲＥＰＯ", url=f"https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC"),
+              InlineKeyboardButton("ᴍᴀɪɴ ʙᴏᴛ", url=f"https://t.me/Professor_Sukoon_Bot"),
+              InlineKeyboardButton("︎ᴍʏ ʀᴇᴘᴏ ", url=f"https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC"),
        
     ],
     [
