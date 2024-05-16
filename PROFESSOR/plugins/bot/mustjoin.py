@@ -27,7 +27,7 @@ MISHI = [
 
 #--------------------------
 
-MUST_JOIN = "Friends_Chatting_Group_Friends_0"
+MUST_JOIN = "Friends_Chatting_Masti_Group"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
