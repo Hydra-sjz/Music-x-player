@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SOURABH_OWNER")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_PROFESSOR_SOURABH_II")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME", "professor_Sukoon_Bott")
 # Don't Add style font 
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001986892837"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002107213547"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7074689169"))
+OWNER_ID = int(getenv("OWNER_ID", "7122997452"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
