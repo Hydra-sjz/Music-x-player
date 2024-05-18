@@ -4,13 +4,13 @@ from PROFESSOR import app
 from config import BOT_USERNAME
 
 start_txt = """
-✦ ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ  ᴘʀᴏғᴇssᴏʀ ʀᴇᴘᴏs !
+⌾ ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ sᴏᴜʀᴀʙʜ ʀᴇᴘᴏs ⌾
 
-✦ ᴍᴇʀᴀ ʀᴇᴘᴏ ʟᴇ ᴏʀ ʙʜᴀᴀɢ ᴊᴀʟᴅɪ
+◎ ʙʜᴀɢ ʙʜᴏsᴅɪᴋᴇ
 
-✦ ᴛᴇʀɪ ᴍᴀ ᴋɪ ᴄʜᴜᴛ ʀᴀɴᴅɪ ᴋᴇ.
+◎ ᴛᴇʀɪ ᴍᴀ ᴋɪ ᴄʜᴜᴛ ʀᴀɴᴅɪ ᴋᴇ.
 
-✦ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ.
+◎ ʀᴇᴘᴏ ᴛᴏ ɴᴀ ᴅᴜɴɢᴀ.
 **"""
 
 
@@ -20,28 +20,28 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("ＡＤＤ ＭＥ ＢＡＢＹ", url=f"https://t.me/Professor_Sukoon_Bot?startgroup=True&admin=delete_messages+invite_users+pin_messages")
+          InlineKeyboardButton("⦿ ＡＤＤ ＭＥ ＢＡＢＹ ⦿", url=f"https://t.me/Professor_Sukoon_Bot?startgroup=True&admin=delete_messages+invite_users+pin_messages")
         ],
         [
-          InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/Friends_Chatting_Masti_Group"),
-          InlineKeyboardButton("ᴘʀᴏғᴇssᴏʀ", url="https://t.me/II_PROFESSOR_SOURABH_II"),
+          InlineKeyboardButton("⦿ ʜᴇʟᴘ ⦿", url="https://t.me/Friends_Chatting_Masti_Group"),
+          InlineKeyboardButton("⦿ ᴘʀᴏғᴇssᴏʀ ⦿", url="https://t.me/II_PROFESSOR_SOURABH_II"),
           ],
                [
-                InlineKeyboardButton("ᴘʀᴏғᴇssᴏʀ ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/PROFESSOR_NETWORK"),
+                InlineKeyboardButton("⦿ ᴘʀᴏғᴇssᴏʀ ɴᴇᴛᴡᴏʀᴋ ⦿", url="https://t.me/PROFESSOR_NETWORK"),
 
 ],
 [
-              InlineKeyboardButton("ᴍᴀɪɴ ʙᴏᴛ", url=f"https://t.me/Professor_Sukoon_Bot"),
-              InlineKeyboardButton("︎ᴍʏ ʀᴇᴘᴏ ", url=f"https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC"),
+              InlineKeyboardButton("⦿ ᴍᴀɪɴ ʙᴏᴛ ⦿", url=f"https://t.me/Professor_Sukoon_Bot"),
+              InlineKeyboardButton("︎⦿ ᴍʏ ʀᴇᴘᴏ ⦿", url=f"https://t.me/PrivateBotRepo"),
        
     ],
     [
-              InlineKeyboardButton("sᴛʀɪɴɢ ɢᴇɴ", url=f"https://t.me/String_Generate_op_bot"),
-              InlineKeyboardButton("︎sᴛʀɪɴɢ ʜᴀᴄᴋ", url=f"https://t.me/ProfessorStringHackRobot"),
+              InlineKeyboardButton("⦿ sᴛʀɪɴɢ ɢᴇɴ ⦿", url=f"https://t.me/String_Generate_op_bot"),
+              InlineKeyboardButton("︎⦿ sᴛʀɪɴɢ ʜᴀᴄᴋ ⦿", url=f"https://t.me/ProfessorStringHackRobot"),
        
     ],
     [ 
-          InlineKeyboardButton("ᴊᴏɪɴ ғᴏʀ sᴘᴀᴍ ʙᴏᴛ sᴜᴅᴏ", url=f"https://t.me/PROFESSOR_SANATANI")
+          InlineKeyboardButton("⦿ ᴊᴏɪɴ ғᴏʀ sᴘᴀᴍ ʙᴏᴛ sᴜᴅᴏ ⦿", url=f"https://t.me/PROFESSOR_SANATANI")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
