@@ -2,12 +2,12 @@
 ### 🍁 𝗩𝗜𝗦𝗜𝗧𝗢𝗥𝗦 🍁
 
 <!--
-**DIVYANSHI-EDITZ/PROFESSOR-MUSIC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**PROFESSOR-SOURABH/PROFESSOR-MUSIC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
 <p align="center">
     <b>ᴠɪsɪᴛᴏʀs</b><br>
- -->    <img align="middle" src="https://profile-counter.glitch.me/DIVYANSHI-EDITZA/count.svg" />
+ -->    <img align="middle" src="https://profile-counter.glitch.me/PROFESSOR-SOURABHA/count.svg" />
 </p>
 
 
@@ -19,13 +19,13 @@
 ★ 𝗛𝗘𝗥𝗢𝗞𝗨 + 𝗩𝗣𝗦 ★
 
 <p align='center'>
-  <img src="https://img.shields.io/github/forks/DIVYANSHI-EDITZ/PROFESSOR-MUSIC?style=flat-square" alt="Forks">
-  <img src="https://img.shields.io/github/stars/DIVYANSHI-EDITZ/PROFESSOR-MUSIC?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/issues/DIVYANSHI-EDITZ/PROFESSOR-MUSIC?style=flat-square" alt="Issues">
-  <img src="https://img.shields.io/github/license/DIVYANSHI-EDITZ/PROFESSOR-MUSIC?style=flat-square" alt="LICENSE">
-  <img src="https://img.shields.io/github/contributors/DIVYANSHI-EDITZ/PROFESSOR-MUSIC?style=flat-square" alt="Contributors">
-  <img src="https://img.shields.io/github/repo-size/DIVYANSHI-EDITZ/PROFESSOR-MUSIC?style=flat-square" alt="Repo Size">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/DIVYANSHI-EDITZ/PROFESSOR-MUSIC&amp;title=Repo%20Views" alt="Views">
+  <img src="https://img.shields.io/github/forks/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Forks">
+  <img src="https://img.shields.io/github/stars/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/issues/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Issues">
+  <img src="https://img.shields.io/github/license/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="LICENSE">
+  <img src="https://img.shields.io/github/contributors/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Contributors">
+  <img src="https://img.shields.io/github/repo-size/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Repo Size">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC&amp;title=Repo%20Views" alt="Views">
 </p>
 
 <p align='center'>
@@ -50,7 +50,7 @@
 <h3> 𝗛𝗘𝗥𝗢𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗕𝗨𝗧𝗧𝗢𝗡 </h3>
 </h3>
 
-[![Deploy To Heroku](https://graph.org/file/826b0a2fc82db8328a113.png)](https://dashboard.heroku.com/new-app?template=https://github.com/DIVYANSHI-EDITZ/PROFESSOR-MUSIC)
+[![Deploy To Heroku](https://graph.org/file/826b0a2fc82db8328a113.png)](https://dashboard.heroku.com/new-app?template=https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC)
 
 ## 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐓𝐔𝐓𝐎𝐑𝐈𝐀𝐋 𝐕𝐈𝐃𝐄𝐎 𝐎𝐍 𝐘𝐎𝐔𝐓𝐔𝐁𝐄
 
@@ -65,7 +65,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/DIVYANSHI-EDITZ/PROFESSOR-MUSIC/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -77,7 +77,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/DIVYANSHI-EDITZ/PROFESSOR-MUSIC && cd AloneXMusic`
+`git clone https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC && cd AloneXMusic`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
@@ -98,9 +98,9 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/Friends_Chatting_Group_Friends_0"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Friends_Chatting_Masti_Group"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://telegram.me/Friends_Chatting_Group_Friends_0"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Friends_Chatting_Masti_Group"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
