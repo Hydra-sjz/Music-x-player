@@ -1,17 +1,3 @@
-━━━━━━━━━━━━━━━━
-### 🍁 𝗩𝗜𝗦𝗜𝗧𝗢𝗥𝗦 🍁
-
-<!--
-**PROFESSOR-SOURABH/PROFESSOR-MUSIC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
-<p align="center">
-    <b>ᴠɪsɪᴛᴏʀs</b><br>
- -->    <img align="middle" src="https://profile-counter.glitch.me/PROFESSOR-SOURABHA/count.svg" />
-</p>
-
-
-
 
 <h2 align="center">
     𖢵 𝗠𝗨𝗦𝗜𝗖 X PLAYER 𖢵
