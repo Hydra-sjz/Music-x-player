@@ -12,29 +12,29 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "II_PROFESSOR_SOURABH_II")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "officialFejo")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "professor_Sukoon_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "MusicPlayX_Bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "˹ šυкσση ✘ ɱυšιᴄ 🫧 ˼")
+BOT_NAME = getenv("BOT_NAME", "Music 𝕏 Player")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "PROFESSOR_ASS")
-EVALOP = list(map(int, getenv("EVALOP", "7074689169").split()))
+ASSUSERNAME = getenv("ASSUSERNAME", "officialFejo")
+EVALOP = list(map(int, getenv("EVALOP", "2021523124 784589736").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SachinSanatani:SACHINxSANATANI@sanatani.bnmsfbd.mongodb.net/?retryWrites=true&w=majority&appName=Sanatani")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000000"))
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "18000")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800000")
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002107213547"))
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7122997452"))
+OWNER_ID = int(getenv("OWNER_ID", "784589736"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC",
+    "https://github.com/Hydra-sjz/Music-x-player",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PROFESSOR_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Friends_Chatting_Masti_Group")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -69,7 +69,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b582008
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "250"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "2000"))
 
 
 # Telegram audio and video file size limit (in bytes)
