@@ -5,13 +5,13 @@
 ★ 𝗛𝗘𝗥𝗢𝗞𝗨 + 𝗩𝗣𝗦 ★
 
 <p align='center'>
-  <img src="https://img.shields.io/github/forks/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Forks">
-  <img src="https://img.shields.io/github/stars/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/issues/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Issues">
-  <img src="https://img.shields.io/github/license/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="LICENSE">
-  <img src="https://img.shields.io/github/contributors/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Contributors">
-  <img src="https://img.shields.io/github/repo-size/PROFESSOR-SOURABH/PROFESSOR-MUSIC?style=flat-square" alt="Repo Size">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/PROFESSOR-SOURABH/PROFESSOR-MUSIC&amp;title=Repo%20Views" alt="Views">
+  <img src="https://img.shields.io/github/forks/Hydra-sjz/Music-x-player?style=flat-square" alt="Forks">
+  <img src="https://img.shields.io/github/stars/Hydra-sjz/Music-x-player?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/issues/Hydra-sjz/Music-x-player?style=flat-square" alt="Issues">
+  <img src="https://img.shields.io/github/license/Hydra-sjz/Music-x-player?style=flat-square" alt="LICENSE">
+  <img src="https://img.shields.io/github/contributors/Hydra-sjz/Music-x-player?style=flat-square" alt="Contributors">
+  <img src="https://img.shields.io/github/repo-size/Hydra-sjz/Music-x-player?style=flat-square" alt="Repo Size">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Hydra-sjz/Music-x-player&amp;title=Repo%20Views" alt="Views">
 </p>
 
 <p align='center'>
