@@ -18,7 +18,7 @@
   <a href="https://t.me/PROFESSOR_NETWORK" alt="MADE-BY-SOURABH"> <img src="https://img.shields.io/badge/Made%20with-Go-1f425f.svg?style=flat-square&logo=Go&color=blue" /> </a>
 
 </h2>
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=Welcome+to+Music+X+Player;♨️+I+Am+a+Power+Full+music+pleyer📻+for+Telegram+Group+Vc🎤🎵+Powered+By+Music+𝕏+Player🎵">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=Welcome+to+Music+X+Player;😊+Powered+By+Music+𝕏+Player🎵">
 <p align="center">
   <img src="https://telegra.ph/file/a13a9d98f15c3fcd06221.jpg">
 </p>
