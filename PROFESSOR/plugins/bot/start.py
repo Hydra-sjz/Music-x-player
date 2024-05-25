@@ -41,6 +41,17 @@ NEXI_VID = [
 
 ]
 
+PHOTO = [
+"https://telegra.ph/file/cdef188e7da67a40f9c73.jpg",
+"https://telegra.ph/file/5f1b792642f8f7f051b5a.jpg",
+"https://telegra.ph/file/badb5f475832923d7d4b4.jpg",
+"https://telegra.ph/file/049ea9201b95db1b853e9.jpg",
+"https://telegra.ph/file/4822b1159595027a0e259.jpg",
+"https://telegra.ph/file/bbb36d4186c6536a2a41b.jpg",
+"https://telegra.ph/file/5c5b15425c662b70ea2a6.jpg",
+"https://telegra.ph/file/4eb5b032c051ec7a7942b.jpg",
+"https://telegra.ph/file/f27786a08bedec9ca52cb.jpg",
+]
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
@@ -51,8 +62,8 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            return await message.reply_video(
-                random.choice(NEXI_VID),
+            return await message.reply_photo(
+                random.choice(PHOTO),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -124,8 +135,8 @@ chat_id=message.chat.id,
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
-    await message.reply_video(
-        random.choice(NEXI_VID),
+    await message.reply_photo(
+        random.choice(PHOTO),
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -159,8 +170,8 @@ async def welcome(client, message: Message):
                     return await app.leave_chat(message.chat.id)
 
                 out = start_panel(_)
-                await message.reply_video(
-                    random.choice(NEXI_VID),
+                await message.reply_photo(
+                    random.choice(PHOTO),
                     caption=_["start_3"].format(
                         message.from_user.mention,
                         app.mention,
