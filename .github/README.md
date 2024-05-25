@@ -2,7 +2,7 @@
 <h2 align="center">
     𖢵 𝗠𝗨𝗦𝗜𝗖 X PLAYER 𖢵
 
-★ 𝗛𝗘𝗥𝗢𝗞𝗨 + 𝗩𝗣𝗦 ★
+★ 100% WORKING ★
 
 <p align='center'>
   <img src="https://img.shields.io/github/forks/Hydra-sjz/Music-x-player?style=flat-square" alt="Forks">
