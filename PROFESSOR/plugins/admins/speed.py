@@ -91,8 +91,9 @@ async def del_back_playlist(client, CallbackQuery, _):
     except:
         pass
     mystic = await CallbackQuery.edit_message_text(
-        text=_["admin_32"].format(CallbackQuery.from_user.mention),
+        text=_["admin_32"],
     )
+    #.format(CallbackQuery.from_user.mention)
     try:
         await PROF.speedup_stream(
             chat_id,
