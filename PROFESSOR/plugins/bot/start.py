@@ -173,7 +173,6 @@ async def welcome(client, message: Message):
                 await message.reply_photo(
                     random.choice(PHOTO),
                     caption=_["start_3"].format(
-                        message.from_user.mention,
                         app.mention,
                         message.chat.title,
                         app.mention,
