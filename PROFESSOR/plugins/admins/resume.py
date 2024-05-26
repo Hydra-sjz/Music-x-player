@@ -17,5 +17,7 @@ async def resume_com(cli, message: Message, _, chat_id):
     await music_on(chat_id)
     await DAXX.resume_stream(chat_id)
     await message.reply_text(
-        _["admin_4"].format(message.from_user.mention), reply_markup=close_markup(_)
+        _["admin_4"], reply_markup=close_markup(_)
     )
+
+#.format(message.from_user.mention)
