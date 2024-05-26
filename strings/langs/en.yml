@@ -44,7 +44,7 @@ reload_4 : "Please...\n\nRebooting {0} for your cache.."
 reload_5 : "Successfully rebooted {0} For your chat.\n\nStart playing again..."
 
 admin_1 : "Did you remember that you've resumed the stream?"
-admin_2 : "Stream psused by {0}"
+admin_2 : "Stream psused."
 admin_3 : "❖ ᴅɪᴅ ʏᴏᴜ ʀᴇᴍᴇᴍʙᴇʀ ᴛʜᴀᴛ ʏᴏᴜ'ᴠᴇ ᴘᴀᴜsᴇᴅ ᴛʜᴇ sᴛʀᴇᴀᴍ ?"
 admin_4 : "❖ sᴛʀᴇᴀᴍ ʀᴇsᴜᴍᴇᴅ\n│ \n└ʙʏ ➥ {0}"
 admin_5 : "❖ sᴛʀᴇᴀᴍ ᴇɴᴅᴇᴅ/sᴛᴏᴩᴩᴇᴅ\n│ \n└ʙʏ ➥ {0}"
