@@ -39,7 +39,7 @@ async def admins(cli, message: Message, _, chat_id):
     elif state.lower() == "disable":
         await set_loop(chat_id, 0)
         return await message.reply_text(
-            _["admin_19"].format(message.from_user.mention),
+            _["admin_19"],
             reply_markup=close_markup(_),
         )
     else:
