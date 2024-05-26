@@ -91,11 +91,11 @@ start_4 : "<b>SuperGroup Needed</b> 💌\n\nPlease convert your<b>Group</b> to <
 start_5 : "<b>Blacklisted Chat:</b>\n\nThis chat is blacklisted on {0} Database.\nRequest a <a href={1}>Sudo User</a> To Unblack list  your chat or visit <a href={2}>My group.</a>"
 start_6 : "<b>Track information:</b> \n\n✒️ <b>Title :</b> __{0}__\n\n⏳ <b>Duration :</b> {1} minutes\n👀 <b>Views :</b> <code>{2}</code>\n📅 <b>Published on :</b> {3}\n📣 <b>Channel :</b> <a href={4}>{5}</a>\n\n<b>Searched by {6}</b>"
 
-help_1 : "❖ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.\n● ᴀsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴀᴛ ➥ <a href={0}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a>\n\n❖ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ➥ <code>/</code>"
-help_2 : "❖ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴍʏ ʜᴇʟᴘ ᴍᴇɴᴜ ɪɴ ʏᴏᴜʀ ᴘᴍ."
+help_1 : "Choose the categary for which you wanna  get help.\n\nall commands can used with <code>/</code>"
+help_2 : "Click on the button  below to get my help  menu in pm."
 
-lang_1 : "๏ ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ʟᴀɴɢᴜᴀɢᴇ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ sᴇᴛ ᴀs ᴛʜɪs ɢʀᴏᴜᴘ's ᴅᴇғᴀᴜʟᴛ ʟᴀɴɢᴜᴀɢᴇ "
-lang_2 : "๏ ʟᴀɴɢᴜᴀɢᴇ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ."
+lang_1 : "Please choose the language which to wanna set as this groups default language"
+lang_2 : "Language change successfully."
 lang_3 : "๏ ғᴀɪʟᴇᴅ ᴛᴏ ᴄʜᴀɴɢᴇ ʟᴀɴɢᴜᴀɢᴇ."
 lang_4 : "๏ Yᴏᴜ'ʀᴇ ᴀʟʀᴇᴀᴅʏ ᴏɴ ᴛʜᴇ sᴀᴍᴇ ʟᴀɴɢᴜᴀɢᴇ."
 
