@@ -162,8 +162,8 @@ str_1 : "❖ ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴍ3ᴜ8 ᴏʀ ɪɴᴅᴇx ʟɪ
 str_2 : "❖ ᴠᴀʟɪᴅ sᴛʀᴇᴀᴍ ᴠᴇʀɪғɪᴇᴅ.\n\n● ᴘʀᴏᴄᴇssɪɴɢ..."
 str_3 : "❖ ғᴀɪʟᴇᴅ ᴛᴏ sᴛʀᴇᴀᴍ ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ sᴛʀᴇᴀᴍ, ɴᴏ ʟɪᴠᴇ ꜰᴏʀᴍᴀᴛ ꜰᴏᴜɴᴅ."
 
-ping_1 : "❖ {0} ɪs ᴘɪɴɢɪɴɢ..."
-ping_2 : "❖ ᴘʀᴏғᴇssᴏʀ ᴍᴜsɪᴄ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ⏤͟͟͞͞★\n\n━━━•❅•°ᴘɪɴɢ sᴛᴀᴛs°•❅•━━━\n\n╭✠╼━━━━━━❖━━━━━━━✠╮\n│● ᴘɪɴɢ  ➥ `{0}ᴍs`\n│● ᴜᴘᴛɪᴍᴇ ➥ `{2}`\n│● ʀᴀᴍ  ➥ `{3}`\n│● ᴄᴘᴜ ➥ `{4}`\n│● ᴅɪsᴋ ➥ `{5}`\n│● ᴘʏ-ᴛɢᴄᴀʟʟs ➥ `<code>{6}ᴍs</code>`\n╰✠╼━━━━━━❖━━━━━━━✠╯\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ᴘʀᴏғᴇssᴏʀ "
+ping_1 : "{0} In Pinging..."
+ping_2 : "__Music x player is alive__\n\n× **Pong:** `{0}Ms`\n× **Uptime:** `{2}`\n× **Ram:** `{3}`\n× **Cpu:** `{4}`\n× **Disk:** `{5}`\n× **Py-TgCalls** `<code>{6}ᴍs</code>`\n\n**Powered by: [Music 𝕏 Player](t.me/MusicPlayX_Bot)**"
 
 queue_1 : "❖ ғᴇᴛᴄʜɪɴɢ ǫᴜᴇᴜᴇ...\n\n❖ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ..."
 queue_2 : "❖ ǫᴜᴇᴜᴇ ᴇᴍᴘᴛʏ."
@@ -174,8 +174,8 @@ queue_6 : "<b>❖ ᴅᴜʀᴀᴛɪᴏɴ ➥ </b> ᴜɴᴋɴᴏᴡɴ ᴅᴜʀᴀ�
 queue_7 : "\n❖ ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
 queue_8 : "❖ <b>{0} ᴘʟᴀʏᴇʀ</b>\n\n● <b>sᴛʀᴇᴀᴍɪɴɢ ➥ </b> {1}\n\n● <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ ➥ </b> {2}\n● <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ </b> {3}\n{4}"
 
-stream_1 : "<b>❖ ᴘʀᴏғᴇssᴏʀ ᴍᴜsɪᴄ ᴏɴ sᴛʀᴇᴀᴍɪɴɢ ⏤͟͟͞͞★</b>\n\n<b>  ━━━•❅•°sᴏɴɢ ɪɴғᴏ°•❅•━━━</b>\n\n<b>╭✠╼━━━━━━❖━━━━━━━✠╮<b/>\n<b>│● ᴛɪᴛʟᴇ ➥</b><a href={0}>{1}</a>\n<b>│● ᴅᴜʀᴀᴛɪᴏɴ ➥</b> {2} ᴍɪɴᴜᴛᴇs\n<b>│● ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥</b> {3}\n<b>╰✠╼━━━━━━❖━━━━━━━✠╯<b/>\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [ ᴘʀᴏғᴇssᴏʀ ](https://t.me/II_PROFESSOR_SOURABH_II)"
-stream_2 : "<b>❖ ᴘʀᴏғᴇssᴏʀ ᴍᴜsɪᴄ ᴏɴ sᴛʀᴇᴀᴍɪɴɢ ⏤͟͟͞͞★</b>\n\n<b>● sᴛʀᴇᴀᴍ ᴛʏᴘᴇ ➥</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>● ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥</b> {0}\n\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [ ᴘʀᴏғᴇssᴏʀ ](https://t.me/II_PROFESSOR_SOURABH_II)"
+stream_1 : "<b>Music X player Is Playing.</b> \n<b>✒️ Title:</b> <a href={0}>{1}</a>\n<b>⏳ Duration:</b> {2} Minutes\n<b>📮 Request by:</b> {3}\n\nPowered by: [X Bots](https://t.me/Xbots_x)"
+stream_2 : "<b>Music X Player is Streaming.</b>\n\n× <b>Stream type:</b> Live stream [Url]\n× <b>Requested by:</b> {0}\n\nPowered by: [X bots](https://t.me/Xbots_x)"
 
 
 CLOSE_BUTTON  : "❌ Close"
