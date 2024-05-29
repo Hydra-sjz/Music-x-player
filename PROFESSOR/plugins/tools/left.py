@@ -91,20 +91,17 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
                 profile_path=photo,
             )
         
-            caption = f"**✦ #ɴᴇᴡ_ᴍᴇᴍʙᴇʀ_ʟᴇғᴛ**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
-            button_text = "ᴠɪᴇᴡ ᴜsᴇʀ"
+            caption = f"{user.mention} **Has left this group :(**"
+            #button_text = "View user"
 
             # Generate a deep link to open the user's profile
-            deep_link = f"tg://openmessage?user_id={user.id}"
+            #deep_link = f"tg://openmessage?user_id={user.id}"
 
             # Send the message with the photo, caption, and button
             await client.send_photo(
                 chat_id=member.chat.id,
                 photo=welcome_photo,
                 caption=caption,
-                reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton(button_text, url=deep_link)]
-                ])
             )
         except RPCError as e:
             print(e)
