@@ -1,130 +1,183 @@
-HELP_1 = """✽ <b>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ⏤͟͟͞͞★</b>
+HELP_1 = """
+**<u>Admin Commands:</u>**
 
-❍ /pause ➠ ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-❍ /resume ➠ ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ.
-❍ /skip ➠ sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ.
-❍ /end ᴏʀ /stop ➠ ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-❍ /player ➠ ɢᴇᴛ ᴀ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ᴩʟᴀʏᴇʀ ᴩᴀɴᴇʟ.
-❍ /queue ➠ sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.
+**c** stands for channel play.
+/pause or /cpause - Pause the playing music.
+/resume or /cresume- Resume the paused music.
+/skip or /cskip- Skip the current playing music.
+/stop or /cstop- Stop the playing music.
+/shuffle or /cshuffle- Randomly shuffles the queued playlist.
+/seek or /cseek - Forward Seek the music to your duration
+/seekback or /cseekback - Backward Seek the music to your duration
+/restart - Restart bot for your chat .
+/player - Get a interactive player planel
+/queue - Show s the shuffled queue.
+/speed or /playback - For adjust the audio playback speeds.
+/cspeed or /cplayback - For adjust the audio playback speeds in channel.
+⏩<u>**Specific Skip:**</u>
+/skip or /cskip [Number(example: 3)] 
+ - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+
+🔂<u>**Loop Play:**</u>
+/loop or /cloop [enable/disable] or [Numbers between 1-10] 
+ - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
+
+🧑‍💻<u>**Auth Users:**</u>
+Auth Users can use admin commands without admin rights in your chat.
+/auth [Username] - Add a user to AUTH LIST of the group.
+/unauth [Username] - Remove a user from AUTH LIST of the group.
+/authusers - Check AUTH LIST of the group.
 """
 
-HELP_2 = """
-✽ <b>ᴀᴜᴛʜ ᴜsᴇʀs ⏤͟͟͞͞★</b>
+HELP_2 = """<u>**Play Commands:**</u>
 
-ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ.
-
-❍ /auth [ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ] ➠ ᴀᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ ᴀᴜᴛʜ ʟɪsᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-❍ /unauth [ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ] ➠ ʀᴇᴍᴏᴠᴇ ᴀ ᴀᴜᴛʜ ᴜsᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ.
-❍ /authusers ➠ sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴜᴛʜ ᴜsᴇʀs ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.
+Available Commands = play , vplay , cplay
+ForcePlay Commands = playforce , vplayforce , cplayforce
+/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
+/playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
+/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
 """
 
 HELP_3 = """
-✽ ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] ⏤͟͟͞͞★
+🔰**<u>ADD & REMOVE SUDO USERS :</u>**
+/addsudo [Username or Reply to a user]
+/delsudo [Username or Reply to a user]
+/sudolist - Check Sudo Users of Arch Music Bot
+🤖**<u>BOT COMMANDS:</u>**
+/reboot - Reboot your Bot. 
+/update - Update Bot.
+/speedtest - Check server speeds
+/maintenance [enable / disable] 
+/logger [enable / disable] - Bot logs the searched queries in logger group.
+/get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
+ [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
+📈**<u>STATS COMMANDS:</u>**
+/activevoice - Check active voice chats on bot.
+/activevideo - Check active video calls on bot.
+/stats - Check Bots Stats
 
-❍ /broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] ➠ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
+/blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
+/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
+/blacklistedchat - Check all blacklisted chats.
 
-❍ ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴏᴅᴇs ⏤͟͟͞͞★
-❍ <b>-pin</b> ➠ ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇs ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs.
-❍ <b>-pinloud</b> ➠ ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ sᴇɴᴅ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴛᴏ ᴛʜᴇ ᴍᴇᴍʙᴇʀs.
-❍ <b>-user</b> ➠ ʙʀᴏᴀᴅᴄᴀsᴛs ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.
-❍ <b>-assistant</b> ➠ ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ᴀssɪᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-❍ <b>-nobot</b> ➠ ғᴏʀᴄᴇs ᴛʜᴇ ʙᴏᴛ ᴛᴏ ɴᴏᴛ ʙʀᴏᴀᴅᴄᴀsᴛ ᴛʜᴇ ᴍᴇssᴀɢᴇ..
+👤**<u>BLOCKED FUNCTION:</u>**
+/block [Username or Reply to a user] - Prevents a user from using bot commands.
+/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
+/blockedusers - Check blocked Users Lists
 
-❍ <b>ᴇxᴀᴍᴩʟᴇ ➠</b> <code>/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ</code>
+👤**<u>GBAN FUNCTION:</u>**
+/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
+/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
+/gbannedusers - Check Gbanned Users Lists
+
+⚡️**<u>PRIVATE BOT FUNCTION:</u>**
+/authorize [CHAT_ID] - Allow a chat for using your bot.
+/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
+/authorized - Check all allowed chats of your bot.
+
+🌐**<u>BROADCAST FUNCTION:</u>**
+/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+
+<u>options for broadcast:</u>
+**-pin** : This will pin your message 
+**-pinloud** : This will pin your message with loud notification
+**-user** : This will broadcast your message to the users who have started your bot.
+**-assistant** : This will broadcast your message from assistant account of your bot.
+**-nobot** : This will force your bot to not broadcast message
+
+**Example:** `/broadcast -user -assistant -pin Hello Testing`
 """
 
 HELP_4 = """
-✽ ᴄʜᴀᴛ ʙʟᴀᴄᴋʟɪsᴛ ғᴇᴀᴛᴜʀᴇ [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] ⏤͟͟͞͞★
+<u>**Extra  Commands:**</u>
+/start - Start the Music Bot.
+/help  - Get Commands Helper Menu with detailed explanations of commands.
+/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
 
-❍ /blacklistchat [ᴄʜᴀᴛ ɪᴅ] ➠ ʙʟᴀᴄᴋʟɪsᴛ ᴀ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-❍ /whitelistchat [ᴄʜᴀᴛ ɪᴅ] ➠ ᴡʜɪᴛᴇʟɪsᴛ ᴛʜᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ.
-❍ /blacklistedchat ➠ sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
+<u>**Group Settings:**</u>
+/settings - Get a complete group's settings with inline buttons
+ **Play Settings:**
+/playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
+
+<u>Options in playmode:</u>
+**Search Mode** [Direct or Inline] - Changes your search mode while you give /play mode. 
+**Admin Commands** [Everyone or Admins] - If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
+**Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat
+
+**Maintenance mode:**
+/logs - Get logs of the bots.
+❍ /logger [enable/disable] - bot will be start logging the activities happened on bot.
+❍ /maintenance [enable/disable] - On or off Maintenance mode.
 """
 
 HELP_5 = """
-✽ ʙʟᴏᴄᴋ ᴜsᴇʀs [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] ⏤͟͟͞͞★
+👥 <b>Group Commands</b>
 
-❍ /block [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] ➠ ʙʟᴏᴄᴋ ᴛʜᴇ ᴜsᴇʀ ғʀᴏᴍ ᴏᴜʀ ʙᴏᴛ.
-❍ /unblock [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] ➠ ᴜɴʙʟᴏᴄᴋs ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀ.
-❍ /blockedusers ➠ sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.
+/pin - Pins a message in groups.
+/pinned - Displays the pinned message in group
+/unpin - Unpins the currently pinned message.
+/staff - Displays the list of staff members.
+/bots - Displays the list of bots in group.
+/settitle - set the title of the group.
+/setdiscription Set the discription of the group.
+/setphoto - Set the group photo.
+/removephoto Remove group photo.
+/zombies - Removes Deleted accounts from group.
+/speedtest - measure the internet speed.
+
+** Admins only **
+
+/ban <userhandle> - bans a user. (via handle, or reply)
+/kickme - kicks the user who issued the command
+/sban <userhandle> - Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
+/tban <userhandle> x(m/h/d) - bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+/unban <userhandle> - unbans a user. (via handle, or reply)
+/kick <userhandle> - kicks a user out of the group, (via handle, or reply)
+/mute <userhandle> - silences a user. Can also be used as a reply, muting the replied to user.
+/tmute <userhandle x(m/h/d) - mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+/unmute <userhandle> - unmutes a user. Can also be used as a reply, muting the replied to user
 """
 
 HELP_6 = """
-✽ <b>ᴄʜᴀɴɴᴇʟ ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs⏤͟͟͞͞★</b>
-
-❍ /cplay ➠ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴀᴜᴅɪᴏ ᴛʀᴀᴄᴋ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠɪᴅᴇᴏᴄʜᴀᴛ.
-❍ /cvplay ➠ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠɪᴅᴇᴏᴄʜᴀᴛ.
-❍ /cplayforce or /cvplayforce ➠ sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
-❍ /channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] ➠ ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
+...
 """
 
 HELP_7 = """
-✽ ɢʟᴏʙᴀʟ ʙᴀɴ ғᴇᴀᴛᴜʀᴇ [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] ⏤͟͟͞͞★
-
-❍ /gban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] ➠ ɢʟᴏʙᴀʟʟʏ ʙᴀɴs ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ ғʀᴏᴍ ᴀʟʟ ᴛʜᴇ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ ʙʟᴀᴄᴋʟɪsᴛ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-❍ /ungban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] ➠ ɢʟᴏʙᴀʟʟʏ ᴜɴʙᴀɴs ᴛʜᴇ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀ.
-❍ /gbannedusers ➠ sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀs.
+...
 """
 
 HELP_8 = """
-✽ <b>ʟᴏᴏᴘ sᴛʀᴇᴀᴍ ⏤͟͟͞͞★</b>
-
-❍ /loop [enable/disable] ➠ ᴇɴᴀʙʟᴇs/ᴅɪsᴀʙʟᴇs ʟᴏᴏᴘ ғᴏʀ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ
-❍ /loop [1, 2, 3, ...] ➠ ᴇɴᴀʙʟᴇs ᴛʜᴇ ʟᴏᴏᴘ ғᴏʀ ᴛʜᴇ ɢɪᴠᴇɴ ᴠᴀʟᴜᴇ.
+...
 """
 
 HELP_9 = """
-✽ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] ⏤͟͟͞͞★
-
-❍ /logs ➠ ɢᴇᴛ ʟᴏɢs ᴏғ ᴛʜᴇ ʙᴏᴛ.
-❍ /logger [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] ➠ ʙᴏᴛ ᴡɪʟʟ sᴛᴀʀᴛ ʟᴏɢɢɪɴɢ ᴛʜᴇ ᴀᴄᴛɪᴠɪᴛɪᴇs ʜᴀᴩᴩᴇɴ ᴏɴ ʙᴏᴛ.
-❍ /maintenance [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] ➠ ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴏғ ʏᴏᴜʀ ʙᴏᴛ.
+...
 """
 
 HELP_10 = """
-✽ <b>ᴘɪɴɢ & sᴛᴀᴛs ⏤͟͟͞͞★</b>
-
-❍ /start ➠ sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
-❍ /help ➠ ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
-❍ /ping ➠ sʜᴏᴡs ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
-❍ /stats ➠ sʜᴏᴡs ᴛʜᴇ ᴏᴠᴇʀᴀʟʟ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+....
 """
 
 HELP_11 = """
-✽ <b>ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs ⏤͟͟͞͞★</b>
-
-❍ <b>v ➠</b> sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴩʟᴀʏ.
-❍ <b>force ➠</b> sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴩʟᴀʏ.
-
-❍ /play ᴏʀ /vplay ➠ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
-❍ /playforce ᴏʀ /vplayforce ➠ sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
+...
 """
 
-HELP_12 = """
-✽ <b>sʜᴜғғʟᴇ ᴏ̨ᴜᴇᴜᴇ ⏤͟͟͞͞★</b>
-
-❍ /shuffle ➠ sʜᴜғғʟᴇ's ᴛʜᴇ ᴏ̨ᴜᴇᴜᴇ.
-❍ /queue ➠ sʜᴏᴡs ᴛʜᴇ sʜᴜғғʟᴇᴅ ᴏ̨ᴜᴇᴜᴇ.
+HELP_12 = """.
+..
 """
 
 HELP_13 = """
-✽ <b>sᴇᴇᴋ sᴛʀᴇᴀᴍ ⏤͟͟͞͞★</b>
-
-❍ /seek [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] ➠ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
-❍ /seekback [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] ➠ ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
+..
+.
 """
 
 HELP_14 = """
-✽ <b>sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ⏤͟͟͞͞★</b>
-
-❍ /song [sᴏɴɢ ɴᴀᴍᴇ/ʏᴛ ᴜʀʟ] ➠ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴛʀᴀᴄᴋ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ ᴍᴘ3 ᴏʀ ᴍᴘ4 ғᴏʀᴍᴀᴛs.
+gh
 """
 
 HELP_15 = """
-✽ <b>sᴘᴇᴇᴅ ᴄᴏᴍᴍᴀɴᴅs ⏤͟͟͞͞★</b>
-
-❍ /speed or /playback ➠ ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ɢʀᴏᴜᴘ.
-❍ /cspeed or /cplayback ➠ ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ᴄʜᴀɴɴᴇʟ.
+..
 """
 
 HELP_16 = """
@@ -135,9 +188,9 @@ HELP_16 = """
 
 HELP_17 = """
 ✽ <b>sᴛɪᴄᴋᴇʀs ⏤͟͟͞͞★</b>
-
-❍ /packkang ➠ ᴄʀᴇᴀᴛᴇs ᴀ ᴘᴀᴄᴋ ᴏғ sᴛɪᴄᴋᴇʀs ғʀᴏᴍ ᴀ ᴏᴛʜᴇʀ ᴘᴀᴄᴋ.
-❍ /stickerid ➠ ɢᴇᴛs ᴛʜᴇ sᴛɪᴄᴋᴇʀ ɪᴅ ᴏғ ᴀ sᴛɪᴄᴋᴇʀ.
+packkang ➠ ᴄʀᴇᴀᴛᴇs ᴀ ᴘᴀᴄᴋ ᴏғ sᴛɪᴄᴋᴇʀs ғʀᴏᴍ ᴀ ᴏᴛʜᴇʀ ᴘᴀᴄᴋ.
+❍ /stickerid
+❍ / ➠ ɢᴇᴛs ᴛʜᴇ sᴛɪᴄᴋᴇʀ ɪᴅ ᴏғ ᴀ sᴛɪᴄᴋᴇʀ.
 """
 
 HELP_18 = """
@@ -160,19 +213,7 @@ HELP_19 = """
 ❍ /github <ᴜsᴇʀɴᴀᴍᴇ> ➠ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ɢɪᴛʜᴜʙ ᴜsᴇʀ.
 """
 HELP_20 = """
-✽ <b>ɢʀᴏᴜᴘ ⏤͟͟͞͞★</b>
-
-❍ /pin ➠ ᴘɪɴs ᴀ ᴍᴇssᴀɢᴇ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
-❍ /pinned ➠ ᴅɪsᴘʟᴀʏs ᴛʜᴇ ᴘɪɴɴᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
-❍ /unpin ➠ ᴜɴᴘɪɴs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛʟʏ ᴘɪɴɴᴇᴅ ᴍᴇssᴀɢᴇ.
-❍ /staff ➠ ᴅɪsᴘʟᴀʏs ᴛʜᴇ ʟɪsᴛ ᴏғ sᴛᴀғғ ᴍᴇᴍʙᴇʀs.
-❍ /bots ➠ ᴅɪsᴘʟᴀʏs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙᴏᴛs ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
-❍ /settitle ➠ sᴇᴛs ᴛʜᴇ ᴛɪᴛʟᴇ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
-❍ /setdiscription ➠ sᴇᴛs ᴛʜᴇ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
-❍ /setphoto ➠ sᴇᴛs ᴛʜᴇ ɢʀᴏᴜᴘ ᴘʜᴏᴛᴏ.
-❍ /removephoto ➠ ʀᴇᴍᴏᴠᴇs ᴛʜᴇ ɢʀᴏᴜᴘ ᴘʜᴏᴛᴏ.
-❍ /zombies ➠ ʀᴇᴍᴏᴠᴇs ᴀᴄᴄ ᴅᴇʟᴇᴛᴇᴅ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ.
-❍ /imposter ᴏɴ/ᴏғғ ➠ ᴛᴜʀɴs ᴏɴ ᴏʀ ᴏғғ ᴛʜᴇ ᴡᴀᴛᴄʜᴇʀ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ, ᴡʜɪᴄʜ ɴᴏᴛɪғɪᴇs ᴀʙᴏᴜᴛ ᴜsᴇʀs ᴡʜᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇɪʀ ɴᴀᴍᴇ ᴏʀ ᴜsᴇʀɴᴀᴍᴇ.
+.. .
 """
 HELP_21 = """
 ✽ <b>ᴇxᴛʀᴀ ⏤͟͟͞͞★</b>
@@ -199,18 +240,7 @@ HELP_22 = """
 HELP_23 = """
  ✽ <b>ᴀᴄᴛɪᴏɴ ⏤͟͟͞͞★</b>
 
- ❍ /kickme ➠ kicks the user who issued the command
-
- ❅ Admins only ❅
-
- ❍ /ban <userhandle> ➠ bans a user. (via handle, or reply)
- ❍ /sban <userhandle> ➠ Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
- ❍ /tban <userhandle> x(m/h/d) ➠ bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
- ❍ /unban <userhandle> ➠ unbans a user. (via handle, or reply)
- ❍ /kick <userhandle> ➠ kicks a user out of the group, (via handle, or reply)
- ❍ /mute <userhandle> ➠ silences a user. Can also be used as a reply, muting the replied to user.
- ❍ /tmute <userhandle x(m/h/d) ➠ mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
- ❍ /unmute <userhandle> ➠ unmutes a user. Can also be used as a reply, muting the replied to user.
+ .
 
  ❍ sᴘᴇᴄɪᴀʟ ᴄᴏᴍᴍᴀɴᴅs ➠ Nykaa 𝚋𝚊𝚗 , Nykaa 𝚖𝚞𝚝𝚎 , Nykaa 𝚙𝚛𝚘𝚖𝚘𝚝𝚎 ..... 𝚎𝚝𝚌.
  """
