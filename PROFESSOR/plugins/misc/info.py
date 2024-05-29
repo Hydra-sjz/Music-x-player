@@ -63,17 +63,17 @@ font_path = "PROFESSOR/assets/hiroko.ttf"
 
 
 INFO_TEXT = """
-ㅤ✦ ᴜsᴇʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ✦
-❅─────✧❅✦❅✧─────❅
+ㅤ× User Information ×
+×───────────────×
   
-๏ ᴜsᴇʀ ɪᴅ ➠ `{}`
-๏ ᴜsᴇʀɴᴀᴍᴇ ➠ @{}
-๏ ᴍᴇɴᴛɪᴏɴ ➠ {}
-๏ ᴜsᴇʀ sᴛᴀᴛᴜs ➠ `{}`
-๏ ᴜsᴇʀ ᴅᴄ ɪᴅ ➠ {}
-๏ ᴜsᴇʀ ʙɪᴏ ➠ {}
+× User Id: `{}`
+× Username: @{}
+× Mention: {}
+× Status: `{}`
+× Dc Id: {}
+× Bio: {}
 
-๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [ ᴘʀᴏғᴇssᴏʀ ](https://t.me/Professor_Sukoon_Bot)
+๏ Powered by: [X Bots](https://t.me/xbots_x)
 """
 
 # --------------------------------------------------------------------------------- #
@@ -93,7 +93,7 @@ async def userstatus(user_id):
       elif x == enums.UserStatus.ONLINE:
          return "User is online."
    except:
-        return "**✦ sᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢ ʜᴀᴘᴘᴇɴᴇᴅ !**"
+        return "**Something went wrong!**"
     
 
 # --------------------------------------------------------------------------------- #
