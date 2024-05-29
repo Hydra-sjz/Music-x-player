@@ -12,8 +12,8 @@ from PROFESSOR.plugins.play.pornplay import play
 
 keyboard = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data"), 
-            InlineKeyboardButton("ᴠᴘʟᴀʏ", callback_data="play"),
+            InlineKeyboardButton("Close", callback_data="close_data"), 
+            InlineKeyboardButton("Vplay", callback_data="play"),
         ]
 ])
 
