@@ -55,7 +55,7 @@ def help_back_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    text="❌Cancel",
+                    text="⬅️ Back",
                     callback_data=f"settings_back_helper",
                 ),
             ]
