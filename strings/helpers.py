@@ -83,6 +83,7 @@ HELP_4 = """
 
 HELP_5 = """
 👥 <b>Group Commands</b>
+
 /pin Pins a message in groups.
 /pinned Displays the pinned message in group
 /unpin unpins the currently pinned message.
@@ -92,19 +93,11 @@ HELP_5 = """
 /setdiscription Set the discription of the group.
 /setphoto Set the group photo.
 /removephoto Remove group photo.
-/zombies Removes Deleted accounts from group.
-/speedtest measure the internet speed.
-/ban bans a user. (via handle, or reply)
-/sban Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
-/tban x(m/h/d) bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-/unban unbans a user. (via handle, or reply)
-/kick kicks a user out of the group, (via handle, or reply)
-/mute silences a user. Can also be used as a reply, muting the replied to user.
-/tmute  x(m/h/d) mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-/unmute unmutes a user. Can also be used as a reply, muting the replied to user
 """
 
 HELP_6 = """
+🔰**<u>SUDO USERS2:</u>**
+
 👤**BLOCKED FUNCTION:**
 /block [Username or Reply to a user] Prevents a user from using bot commands.
 /unblock [Username or Reply to a user] Remove a user from Bot's Blocked List.
@@ -117,6 +110,26 @@ HELP_6 = """
 /authorize [chat_id] Allow a chat for using your bot.
 /unauthorize [chat_id] Disallow a chat from using your bot.
 /authorized Check all allowed chats of your bot.
+"""
+
+HELP_7 = """
+👥 <b>Group Commands 2</b>
+
+/zombies Removes Deleted accounts from group.
+/speedtest measure the internet speed.
+/ban bans a user. (via handle, or reply)
+/sban Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
+/tban x(m/h/d) bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+/unban unbans a user. (via handle, or reply)
+/kick kicks a user out of the group, (via handle, or reply)
+/mute silences a user. Can also be used as a reply, muting the replied to user.
+/tmute  x(m/h/d) mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+/unmute unmutes a user. Can also be used as a reply, muting the replied to user
+"""
+
+HELP_8 = """
+🔰**<u>SUDO USERS3:</u>**
+
 🌐**BROADCAST:**
 /broadcast [Message or Reply to a Message] Broadcast any message to Bot's Served Chats.
 <u>options for broadcast:</u>
@@ -126,14 +139,6 @@ HELP_6 = """
 `-assistant`: This will broadcast your message from assistant account of your bot.
 `-nobot`: This will force your bot to not broadcast message
 **Example:** `/broadcast -user -assistant -pin Hello Testing`
-"""
-
-HELP_7 = """
-...
-"""
-
-HELP_8 = """
-...
 """
 
 HELP_9 = """
