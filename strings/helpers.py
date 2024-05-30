@@ -84,50 +84,48 @@ HELP_4 = """
 HELP_5 = """
 👥 <b>Group Commands</b>
 
-/pin - Pins a message in groups.
-/pinned - Displays the pinned message in group
-/unpin - Unpins the currently pinned message.
-/staff - Displays the list of staff members.
-/bots - Displays the list of bots in group.
-/settitle - set the title of the group.
+/pin Pins a message in groups.
+/pinned Displays the pinned message in group
+/unpin unpins the currently pinned message.
+/staff Displays the list of staff members.
+/bots Displays the list of bots in group.
+/settitle set the title of the group.
 /setdiscription Set the discription of the group.
-/setphoto - Set the group photo.
+/setphoto Set the group photo.
 /removephoto Remove group photo.
-/zombies - Removes Deleted accounts from group.
-/speedtest - measure the internet speed.
-/ban <userhandle> - bans a user. (via handle, or reply)
-/kickme - kicks the user who issued the command
-/sban <userhandle> - Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
-/tban <userhandle> x(m/h/d) - bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-/unban <userhandle> - unbans a user. (via handle, or reply)
-/kick <userhandle> - kicks a user out of the group, (via handle, or reply)
-/mute <userhandle> - silences a user. Can also be used as a reply, muting the replied to user.
-/tmute <userhandle x(m/h/d) - mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-/unmute <userhandle> - unmutes a user. Can also be used as a reply, muting the replied to user
+/zombies Removes Deleted accounts from group.
+/speedtest measure the internet speed.
+/ban <userhandle> bans a user. (via handle, or reply)
+/sban <userhandle> Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
+/tban <userhandle> x(m/h/d) bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+/unban <userhandle> unbans a user. (via handle, or reply)
+/kick <userhandle> kicks a user out of the group, (via handle, or reply)
+/mute <userhandle> silences a user. Can also be used as a reply, muting the replied to user.
+/tmute <userhandle x(m/h/d) mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+/unmute <userhandle> unmutes a user. Can also be used as a reply, muting the replied to user
 """
 
 HELP_6 = """
-👤**<u>BLOCKED FUNCTION:</u>**
-/block [Username or Reply to a user] - Prevents a user from using bot commands.
-/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
-/blockedusers - Check blocked Users Lists
-👤**<u>GBAN FUNCTION:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
+👤**BLOCKED FUNCTION:**
+/block [Username or Reply to a user] Prevents a user from using bot commands.
+/unblock [Username or Reply to a user] Remove a user from Bot's Blocked List.
+/blockedusers Check blocked Users Lists
+👤**GBAN FUNCTION:**
+/gban [Username or Reply to a user] Gban a user from bot's served chat and stop him from using your bot.
+/ungban [Username or Reply to a user] Remove a user from Bot's gbanned List and allow him for using your bot
+/gbannedusers Check Gbanned Users Lists
 ⚡️**<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
-🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+/authorize [CHAT_ID] Allow a chat for using your bot.
+/unauthorize [CHAT_ID] Disallow a chat from using your bot.
+/authorized Check all allowed chats of your bot.
+🌐**BROADCAST FUNCTION:**
+/broadcast [Message or Reply to a Message] Broadcast any message to Bot's Served Chats.
 <u>options for broadcast:</u>
-**-pin** : This will pin your message 
-**-pinloud** : This will pin your message with loud notification
-**-user** : This will broadcast your message to the users who have started your bot.
-**-assistant** : This will broadcast your message from assistant account of your bot.
-**-nobot** : This will force your bot to not broadcast message
-
+`-pin`: This will pin your message 
+`-pinloud`: This will pin your message with loud notification
+`-user`: This will broadcast your message to the users who have started your bot.
+`-assistant`: This will broadcast your message from assistant account of your bot.
+`-nobot`: This will force your bot to not broadcast message
 **Example:** `/broadcast -user -assistant -pin Hello Testing`
 """
 
