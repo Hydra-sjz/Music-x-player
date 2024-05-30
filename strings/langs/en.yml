@@ -174,7 +174,7 @@ queue_6 : "<b>× Duration:</b> Unknown Duration\n\n× Click on  button below to 
 queue_7 : "\nClick on button below to get whole queued list."
 queue_8 : "<b>{0} Player</b>\n\n× <b>Streaming:</b> {1}\n\n× <b>Stream type</b> {2}\n× <b>Requested by:</b> {3}\n{4}"
 
-stream_1 : "<b>Music X player Is Playing.</b> \n\n<b>🎧 Song:</b> <a href={0}>{1}</a>\n<b>⌚ Duration:</b> {2} Minutes\n<b>📮 Request by:</b> {3}\n\nPowered by: [X Bots](https://t.me/Xbots_x)"
+stream_1 : "<b>Music X player Is Playing.</b> \n\n<b>🎧 Song:</b> <a href={0}>{1}</a>\n<b>⌚ Duration:</b> {2} Minutes\n\nPowered by: [X Bots](https://t.me/Xbots_x)"
 stream_2 : "<b>Music X Player is Streaming.</b>\n\n× <b>Stream type:</b> Live stream [Url]\n× <b>Requested by:</b> {0}\n\nPowered by: [X bots](https://t.me/Xbots_x)"
 
 
