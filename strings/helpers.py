@@ -41,7 +41,7 @@ HELP_3 = """
 /addsudo [Username or Reply to a user]
 /delsudo [Username or Reply to a user]
 /sudolist - Check Sudo Users of Arch Music Bot
-🤖**<u>BOT COMMANDS:</u>**
+🤖**BOT CMDS:**
 /reboot - Reboot your Bot. 
 /update - Update Bot.
 /speedtest - Check server speeds
@@ -49,11 +49,11 @@ HELP_3 = """
 /logger [enable / disable] - Bot logs the searched queries in logger group.
 /get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
  [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
-📈**<u>STATS COMMANDS:</u>**
+📈**STATS CDS:**
 /activevoice - Check active voice chats on bot.
 /activevideo - Check active video calls on bot.
 /stats - Check Bots Stats
-⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
+⚠️**BL-CHAT:**
 /blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
 /whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
 /blacklistedchat - Check all blacklisted chats.
@@ -83,7 +83,6 @@ HELP_4 = """
 
 HELP_5 = """
 👥 <b>Group Commands</b>
-
 /pin Pins a message in groups.
 /pinned Displays the pinned message in group
 /unpin unpins the currently pinned message.
@@ -95,14 +94,14 @@ HELP_5 = """
 /removephoto Remove group photo.
 /zombies Removes Deleted accounts from group.
 /speedtest measure the internet speed.
-/ban <userhandle> bans a user. (via handle, or reply)
-/sban <userhandle> Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
-/tban <userhandle> x(m/h/d) bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-/unban <userhandle> unbans a user. (via handle, or reply)
-/kick <userhandle> kicks a user out of the group, (via handle, or reply)
-/mute <userhandle> silences a user. Can also be used as a reply, muting the replied to user.
-/tmute <userhandle x(m/h/d) mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-/unmute <userhandle> unmutes a user. Can also be used as a reply, muting the replied to user
+/ban bans a user. (via handle, or reply)
+/sban Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
+/tban x(m/h/d) bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+/unban unbans a user. (via handle, or reply)
+/kick kicks a user out of the group, (via handle, or reply)
+/mute silences a user. Can also be used as a reply, muting the replied to user.
+/tmute  x(m/h/d) mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+/unmute unmutes a user. Can also be used as a reply, muting the replied to user
 """
 
 HELP_6 = """
@@ -111,14 +110,14 @@ HELP_6 = """
 /unblock [Username or Reply to a user] Remove a user from Bot's Blocked List.
 /blockedusers Check blocked Users Lists
 👤**GBAN FUNCTION:**
-/gban [Username or Reply to a user] Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] Remove a user from Bot's gbanned List and allow him for using your bot
+/gban [Username or Reply to user] Gban a user from bot's served chat and stop him from using your bot.
+/ungban [Username or Reply to user] Remove a user from Bot's gbanned List and allow him for using bot
 /gbannedusers Check Gbanned Users Lists
-⚡️**<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] Allow a chat for using your bot.
-/unauthorize [CHAT_ID] Disallow a chat from using your bot.
+⚡️**Auth-Chat:**
+/authorize [chat_id] Allow a chat for using your bot.
+/unauthorize [chat_id] Disallow a chat from using your bot.
 /authorized Check all allowed chats of your bot.
-🌐**BROADCAST FUNCTION:**
+🌐**BROADCAST:**
 /broadcast [Message or Reply to a Message] Broadcast any message to Bot's Served Chats.
 <u>options for broadcast:</u>
 `-pin`: This will pin your message 
