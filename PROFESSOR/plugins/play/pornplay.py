@@ -13,13 +13,13 @@ from PROFESSOR.plugins.play.pornplay import play
 keyboard = InlineKeyboardMarkup([
         [
             InlineKeyboardButton("Close", callback_data="close_data"), 
-            InlineKeyboardButton("Vplay", callback_data="play"),
+            InlineKeyboardButton("Vplay", callback_data="prn_play"),
         ]
 ])
 
 
 # Define your callback function
-@app.on_callback_query(filters.regex("^play"))
+@app.on_callback_query(filters.regex("^prn_play"))
 async def play_callback(_, query):
     # You can add more logic here before initiating playback
     await play(query.from_user.id)  # Assuming play function accepts user ID
