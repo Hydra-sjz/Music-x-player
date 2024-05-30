@@ -168,7 +168,7 @@ ping_2 : "__Music x player is alive__\n\n× **Pong:** `{0}Ms`\n× **Uptime:** `{
 queue_1 : "Fetching queue...\n\nPlease wait..."
 queue_2 : "Query empty."
 queue_3 : "<u>Click here to check the list of the queued Tracks:</u> <a href={0}>Here</a>"
-queue_4 : "<b>Next song  added in queue #{0}\n\n<b> <b/>\n\n🎧 **Song:**</b> {1}\n<b>⌚ **Duration**:</b> {2} Minutes\n<b>📮 Requested by:</b> {3}\n\n**Powered by:** [X Bots](https://t.me/Xbots_x)"
+queue_4 : "<b>Next song  added in queue #{0}\n\n🎧 **Song:**</b> {1}\n<b>⌚ **Duration**:</b> {2} Minutes\n<b>📮 Requested by:</b> {3}\n\n**Powered by:** [X Bots](https://t.me/Xbots_x)"
 queue_5 : "There only one queued track in playlist.\n\nAdded more tracks to list."
 queue_6 : "<b>× Duration:</b> Unknown Duration\n\n× Click on  button below to get whole queued list."
 queue_7 : "\nClick on button below to get whole queued list."
