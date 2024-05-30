@@ -168,13 +168,13 @@ ping_2 : "__Music x player is alive__\n\n× **Pong:** `{0}Ms`\n× **Uptime:** `{
 queue_1 : "Fetching queue...\n\nPlease wait..."
 queue_2 : "Query empty."
 queue_3 : "<u>Click here to check the list of the queued Tracks:</u> <a href={0}>Here</a>"
-queue_4 : "<b>Next song  added in queue #{0}\n\n<b> <b/>\n\n✒️ **Title:**</b> {1}\n<b>⏳ **Duration**:</b> {2} Minutes\n<b>📮 Requested by:</b> {3}\n\n**Powered by:** [X Bots](https://t.me/Xbots_x)"
+queue_4 : "<b>Next song  added in queue #{0}\n\n<b> <b/>\n\n🎧 **Song:**</b> {1}\n<b>⌚ **Duration**:</b> {2} Minutes\n<b>📮 Requested by:</b> {3}\n\n**Powered by:** [X Bots](https://t.me/Xbots_x)"
 queue_5 : "There only one queued track in playlist.\n\nAdded more tracks to list."
 queue_6 : "<b>× Duration:</b> Unknown Duration\n\n× Click on  button below to get whole queued list."
 queue_7 : "\nClick on button below to get whole queued list."
 queue_8 : "<b>{0} Player</b>\n\n× <b>Streaming:</b> {1}\n\n× <b>Stream type</b> {2}\n× <b>Requested by:</b> {3}\n{4}"
 
-stream_1 : "<b>Music X player Is Playing.</b> \n\n<b>✒️ Title:</b> <a href={0}>{1}</a>\n<b>⏳ Duration:</b> {2} Minutes\n<b>📮 Request by:</b> {3}\n\nPowered by: [X Bots](https://t.me/Xbots_x)"
+stream_1 : "<b>Music X player Is Playing.</b> \n\n<b>🎧 Song:</b> <a href={0}>{1}</a>\n<b>⌚ Duration:</b> {2} Minutes\n<b>📮 Request by:</b> {3}\n\nPowered by: [X Bots](https://t.me/Xbots_x)"
 stream_2 : "<b>Music X Player is Streaming.</b>\n\n× <b>Stream type:</b> Live stream [Url]\n× <b>Requested by:</b> {0}\n\nPowered by: [X bots](https://t.me/Xbots_x)"
 
 
