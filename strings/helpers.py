@@ -1,7 +1,6 @@
 HELP_1 = """
 **<u>Admin Commands:</u>**
 
-**c** stands for channel play.
 /pause or /cpause - Pause the playing music.
 /resume or /cresume- Resume the paused music.
 /skip or /cskip- Skip the current playing music.
@@ -14,13 +13,6 @@ HELP_1 = """
 /queue - Show s the shuffled queue.
 /speed or /playback - For adjust the audio playback speeds.
 /cspeed or /cplayback - For adjust the audio playback speeds in channel.
-⏩<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
- - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
-
-🔂<u>**Loop Play:**</u>
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
- - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
 
 🧑‍💻<u>**Auth Users:**</u>
 Auth Users can use admin commands without admin rights in your chat.
@@ -31,15 +23,21 @@ Auth Users can use admin commands without admin rights in your chat.
 
 HELP_2 = """<u>**Play Commands:**</u>
 
-Available Commands = play , vplay , cplay
-ForcePlay Commands = playforce , vplayforce , cplayforce
 /play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
 /playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
 /channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+
+⏩<u>**Specific Skip:**</u>
+/skip or /cskip [Number(example: 3)] 
+- Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+
+🔂<u>**Loop Play:**</u>
+/loop or /cloop [enable/disable] or [Numbers between 1-10] 
+- When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
 """
 
 HELP_3 = """
-🔰**<u>ADD & REMOVE SUDO USERS :</u>**
+🔰**<u>SUDO USERS:</u>**
 /addsudo [Username or Reply to a user]
 /delsudo [Username or Reply to a user]
 /sudolist - Check Sudo Users of Arch Music Bot
@@ -55,38 +53,10 @@ HELP_3 = """
 /activevoice - Check active voice chats on bot.
 /activevideo - Check active video calls on bot.
 /stats - Check Bots Stats
-
 ⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
 /blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
 /whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
 /blacklistedchat - Check all blacklisted chats.
-
-👤**<u>BLOCKED FUNCTION:</u>**
-/block [Username or Reply to a user] - Prevents a user from using bot commands.
-/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
-/blockedusers - Check blocked Users Lists
-
-👤**<u>GBAN FUNCTION:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
-
-⚡️**<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
-
-🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
-
-<u>options for broadcast:</u>
-**-pin** : This will pin your message 
-**-pinloud** : This will pin your message with loud notification
-**-user** : This will broadcast your message to the users who have started your bot.
-**-assistant** : This will broadcast your message from assistant account of your bot.
-**-nobot** : This will force your bot to not broadcast message
-
-**Example:** `/broadcast -user -assistant -pin Hello Testing`
 """
 
 HELP_4 = """
@@ -97,7 +67,7 @@ HELP_4 = """
 
 <u>**Group Settings:**</u>
 /settings - Get a complete group's settings with inline buttons
- **Play Settings:**
+**Play Settings:**
 /playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
 
 <u>Options in playmode:</u>
@@ -107,8 +77,8 @@ HELP_4 = """
 
 **Maintenance mode:**
 /logs - Get logs of the bots.
-❍ /logger [enable/disable] - bot will be start logging the activities happened on bot.
-❍ /maintenance [enable/disable] - On or off Maintenance mode.
+/logger [enable/disable] - bot will be start logging the activities happened on bot.
+/maintenance [enable/disable] - On or off Maintenance mode.
 """
 
 HELP_5 = """
@@ -125,9 +95,6 @@ HELP_5 = """
 /removephoto Remove group photo.
 /zombies - Removes Deleted accounts from group.
 /speedtest - measure the internet speed.
-
-** Admins only **
-
 /ban <userhandle> - bans a user. (via handle, or reply)
 /kickme - kicks the user who issued the command
 /sban <userhandle> - Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
@@ -140,7 +107,28 @@ HELP_5 = """
 """
 
 HELP_6 = """
-...
+👤**<u>BLOCKED FUNCTION:</u>**
+/block [Username or Reply to a user] - Prevents a user from using bot commands.
+/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
+/blockedusers - Check blocked Users Lists
+👤**<u>GBAN FUNCTION:</u>**
+/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
+/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
+/gbannedusers - Check Gbanned Users Lists
+⚡️**<u>PRIVATE BOT FUNCTION:</u>**
+/authorize [CHAT_ID] - Allow a chat for using your bot.
+/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
+/authorized - Check all allowed chats of your bot.
+🌐**<u>BROADCAST FUNCTION:</u>**
+/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+<u>options for broadcast:</u>
+**-pin** : This will pin your message 
+**-pinloud** : This will pin your message with loud notification
+**-user** : This will broadcast your message to the users who have started your bot.
+**-assistant** : This will broadcast your message from assistant account of your bot.
+**-nobot** : This will force your bot to not broadcast message
+
+**Example:** `/broadcast -user -assistant -pin Hello Testing`
 """
 
 HELP_7 = """
