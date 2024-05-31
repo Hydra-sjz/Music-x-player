@@ -86,7 +86,7 @@ admin_40 : "**Upvoted**."
 
 start_1 : "{0} Is alive bro.\n× <b>Uptime :</b> {1}\n©️ @XBOTS_X"
 start_2 : "👋 <b>Welcome</b> {0},\n\nMy name is {1} and i will stream music in Telegram group VideoChat with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc..\n\nAnd i have {6} Users and added me on {7} Group chats.🤩"
-start_3 : "❤️ Thank you for adding {0} in your {1} group!\n👨‍💻 Put me admin right away so I can function at my best..\n\nNow {3} can play songs in chat.🎵🎧"
+start_3 : "❤️ Thank you for adding {0} in your {1} group!\n👨‍💻 Put me admin right away so I can function at my best..\n\nNow i can play songs in chat.🎵🎧"
 start_4 : "<b>SuperGroup Needed</b> 💌\n\nPlease convert your<b>Group</b> to <b>SuperGroup</b>y and then add me again.\n\n<b>How to make Supergroup?</b>\n- Make your group chat history<b>Visible</b>onec."
 start_5 : "<b>Blacklisted Chat:</b>\n\nThis chat is blacklisted on {0} Database.\nRequest a <a href={1}>Sudo User</a> To Unblack list  your chat or visit <a href={2}>My group.</a>"
 start_6 : "<b>Track information:</b> \n\n✒️ <b>Title :</b> __{0}__\n⏳ <b>Duration :</b> {1} minutes\n👀 <b>Views :</b> <code>{2}</code>\n📅 <b>Published on :</b> {3}\n📣 <b>Channel :</b> <a href={4}>{5}</a>\n\n<b>Searched by {6}</b>"
