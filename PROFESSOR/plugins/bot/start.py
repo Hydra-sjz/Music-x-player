@@ -170,12 +170,10 @@ async def welcome(client, message: Message):
                     return await app.leave_chat(message.chat.id)
 
                 out = start_panel(_)
-                await message.reply_photo(
-                    random.choice(PHOTO),
+                await message.reply_text(
                     caption=_["start_3"].format(
                         app.mention,
                         message.chat.title,
-                        app.mention,
                     ),
                     reply_markup=InlineKeyboardMarkup(out),
                 )
